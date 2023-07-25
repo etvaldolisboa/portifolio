@@ -1,39 +1,29 @@
 :root {
-    --black-dark: #000000;
-    --black-midium: #444444;
-    --black-soft: #303030;
+  --preto-300: hsl(0, 0%, 19%);
+  --preto-400: hsl(0, 0%, 27%);
+  --preto-900: hsl(0, 0%, 60%);
+  --preto-000: hsl(0, 0%, 0%);
 
-    --white-0: #f5f5f7;
-    --white-1: #fbfbfd;
-    --white-2: #F8F8F8;
+  --branco-300: hsl(240, 33%, 99%);
+  --branco-800: hsl(0, 0%, 78%);
+  --branco-900: hsl(0, 0%, 90%);
+  --branco-000: hsl(0, 0%, 100%);
 
-    --blue-soft: #C7D0FF;
-    --blue-midium: #2997ff;
+  --azul-claro: #C7D0FF;
+  --azul-link: #2997ff;
 }
 
+:root {
+  --fonte-primaria: 'SF Pro', sans-serif;
+  --fonte-secundaria: 'SF Mono', monospace;
+  --fonte-terciaria: 'NY', serif;
 
+  --fonte-gigante: 4.5rem;
+  --fonte-extra-grande: 3rem;
+  --fonte-grande: 2.4rem;
+  --fonte-normal: 1.6rem;
+}
 
 :root {
-
-
-    --cor-primaria: #43bd8e;
-    --cor-secundaria: #FD6C22;    
-    --cor-branca: #fff;
-    --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
-    --cor-fundo-cinza-claro: #353535;    
-  }
-    
-  :root {
-    --fonte-primaria: 'SF Pro', sans serif;
-    --fonte-secundaria: 'SF Mono', serif;
-    --fonte-terciaria: 'NY', sans serif;
-    --fonte-gigante: 4.5rem;
-    --fonte-extra-grande: 3rem;
-    --fonte-grande: 2.4rem;
-    --fonte-normal: 1.6rem;
-  }
-  
-  :root {
-    --mobile-padding: 30px;
-  }
+  --mobile-padding: 30px;
+}

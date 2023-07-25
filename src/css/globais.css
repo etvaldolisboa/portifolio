@@ -13,15 +13,20 @@
 
 html {
     font-size: 62.5%;
-    color: var(--black-midium);
+    color: var(--preto-300);
     font-weight: 300;
     scroll-behavior: smooth;
     font-family: system-ui;
   }
   
   body {
-    /* background-color: var(--white-2); */
-    /* background-color: var(--cor-fundo-cinza-escuro); */
+    background-color: var(--branco-300);
     font-family: 'SF Pro';
-    /* font-size: var(--fonte-normal); */
+    font-size: var(--fonte-normal);
   }
+
+.row{
+  display: flex;
+  justify-content: space-between;
+
+}
