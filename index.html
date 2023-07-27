@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etvaldo Freitas Lisboa - Desenvolvedor Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Etvaldo Freitas Lisboa - Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/header.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/home.css" />
 
-  <link href=" https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css " rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="src/webfonts/fontawesome-web/css/all.min.css"
+    />
+  </head>
 
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-centro">
+          <a href="#">
+            <h1 class="logo">EL</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row">
-        <a href="#">
-          <h1 class="logo">EL</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
-
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
-            </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-          </ul>
-        </nav>
-        <input type="checkbox" id="trocar-tema">
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          </nav>
+          <input type="checkbox" id="trocar-tema" />
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="home">
+    <section class="home">
+      <div class="container">
+        <div class="row fullscreen alinhar-itens-centro">
+          <div class="texto-home">
+            <h1>ola meu nome e eh lisboa</h1>
+            <p>eu sou desenvolvedor frondtend</p>
 
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
+            <div class="redes-sociais">
+              <a href="#" class="outer-shadows">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="outer-shadows">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" class="outer-shadows">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="#" class="outer-shadows">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
 
-  </section>
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img src="src/imagens/foto-perfil.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim"></section>
 
-  <section class="habilidades section" id="habilidades">
+    <section class="habilidades section" id="habilidades"></section>
 
-  </section>
+    <section class="projetos section" id="projetos"></section>
 
-  <section class="projetos section" id="projetos">
-    
-  </section>
-
-  <footer class="footer">
-  </footer>
-</body>
-
+    <footer class="footer"></footer>
+  </body>
 </html>
