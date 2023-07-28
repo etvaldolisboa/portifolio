@@ -15,14 +15,14 @@
 
 html {
   font-size: 62.5%;
-  color: var(--preto-300);
+  color: var(--preto);
   font-weight: 300;
   scroll-behavior: smooth;
   font-family: system-ui;
 }
 
 body {
-  background-color: var(--branco-300);
+  background-color: var(--branco);
   font-family: 'SF Pro';
   font-size: var(--fonte-normal);
 }
@@ -44,16 +44,38 @@ body {
 }
 
 .redes-socais a {
-  /* display: inline-block; */
   width: 40px;
   height: 40px;
-  background-color: aqua;
 }
 
-
-.outer-shadow{
+.outter-shadow{
   box-shadow: 3px 3px #222327, -3px -3px 3px;
 }
 .inner-shadow{
   box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.section{
+  padding: 7rem 0 7rem;
+}
+.section-title{
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+  background-color: var(--cores-bw-100);
+}
+.section-title h2{
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.botao{
+  font-size: var(--fonte-normal);
+  font-weight: bold;
+  transition: all .3s ease ;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: var(--cores-link);
 }

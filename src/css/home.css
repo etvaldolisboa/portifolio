@@ -17,7 +17,7 @@
 }
 
 .home .img-home .img-box {
-  background-color: tomato;
+  /* background-color: tomato; */
   max-width: 450px;
   margin: auto;
   border-radius: 50%;
@@ -30,10 +30,10 @@
 }
 
 .home .texto-home h1 {
-  font-size
+  font-size: 3rem
 }
 
-@media (max-width 1280px) {
+@media (max-width: 1280px) {
 
   .home .texto-home,
   .home .img-home {
@@ -42,4 +42,4 @@
     text-align: center;
     padding: var(--mobile-padding);
   }
-}
+} 

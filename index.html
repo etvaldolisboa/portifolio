@@ -1,91 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Etvaldo Freitas Lisboa - Desenvolvedor Frontend</title>
 
-    <link rel="stylesheet" href="src/css/font-awesome.css" />
-    <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/variaveis.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etvaldo Freitas Lisboa - Desenvolvedor Frontend</title>
 
-    <!-- Global -->
-    <link rel="stylesheet" href="src/css/globais.css" />
-    <link rel="stylesheet" href="src/css/variaveis.css" />
-    <link rel="stylesheet" href="src/css/header.css" />
-    <link rel="stylesheet" href="src/css/home.css" />
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
 
-    <link
-      rel="stylesheet"
-      href="src/webfonts/fontawesome-web/css/all.min.css"
-    />
-  </head>
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/header.css" />
+  <link rel="stylesheet" href="src/css/home.css" />
+  <link rel="stylesheet" href="src/css/sobre.css" />
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="row justify-content-between alinhar-itens-centro">
-          <a href="#">
-            <h1 class="logo">EL</h1>
-          </a>
-          <nav>
-            <input id="menu-hamburguer" type="checkbox" />
+  <link rel="stylesheet" href="src/webfonts/fontawesome-web/css/all.min.css" />
+</head>
 
-            <label for="menu-hamburguer">
-              <div class="menu">
-                <span class="hamburguer"></span>
-              </div>
-            </label>
-            <ul>
-              <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#projetos">Meus projetos</a></li>
-              <li><a href="#contatos">Contatos</a></li>
-            </ul>
-          </nav>
-          <input type="checkbox" id="trocar-tema" />
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-centro">
+        <a href="#">
+          <h1 class="logo">EL</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row fullscreen alinhar-itens-centro">
+        <div class="texto-home">
+          <h1>ola meu nome e eh lisboa</h1>
+          <p>eu sou desenvolvedor frondtend</p>
+
+          <ul class="redes-sociais row">
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-linkedin-in"></i> </a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-whatsapp"></i> </a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-instagram"></i> </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img src=" https://placehold.co/600x600" alt="">
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <section class="home">
-      <div class="container">
-        <div class="row fullscreen alinhar-itens-centro">
-          <div class="texto-home">
-            <h1>ola meu nome e eh lisboa</h1>
-            <p>eu sou desenvolvedor frondtend</p>
-
-            <div class="redes-sociais">
-              <a href="#" class="outer-shadows">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a href="#" class="outer-shadows">
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a href="#" class="outer-shadows">
-                <i class="fa-brands fa-whatsapp"></i>
-              </a>
-              <a href="#" class="outer-shadows">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="img-home">
-            <div class="img-box inner-shadow">
-              <img src="src/imagens/foto-perfil.png" alt="" />
-            </div>
-          </div>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
         </div>
       </div>
-    </section>
-    <section class="sobre-mim section" id="sobre-mim"></section>
+      <div class="row">
+        <div class="img-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src=" https://placehold.co/300x300" alt="foto de perfil">
+          </div>
+          </div>
 
-    <section class="habilidades section" id="habilidades"></section>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit
+              </strong>. Expedita perferendis sunt, earum ratione quaerat
+              cum ut exercitationem laudantium molestiae asperiores aperiam qui nulla nisi facere! Porro fugiat minus
+              ducimus nulla.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum adipisci, sequi, tenetur doloribus
+              molestias
+              voluptas ratione mollitia quidem blanditiis, dolor explicabo tempore saepe cupiditate incidunt sint beatae
+              quas fugiat. Facere.</p>
 
-    <section class="projetos section" id="projetos"></section>
+              <div class="botoes"><a href="src/arquivos/cv.pdf" class="botao outter-shadows" target="_blank">Baixar cv</a>          </div>
+          </div>
 
-    <footer class="footer"></footer>
-  </body>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades"></section>
+
+  <section class="projetos section" id="projetos"></section>
+
+  <footer class="footer"></footer>
+</body>
+
 </html>
