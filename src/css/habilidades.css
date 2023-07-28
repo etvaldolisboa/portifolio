@@ -1,5 +1,5 @@
 .habilidades .container-habilidade {
-    background-color: rebeccapurple;
+    background-color: var(--cores-azul-claro);
     /* display: flex; */
     /* flex-wrap: wrap; */
     text-align: center;
@@ -27,6 +27,11 @@
 }
 
 .habilidades .container-habilidade .informacoes p {
-    /* font-size: ; */
+    /* font-size: 40px ; */
     color: var(--cores-bw-600);
+}
+
+.habilidades .container-habilidade .informacoes .logo i {
+    font-size: 60px;
+    color: var(--cores-link);
 }
