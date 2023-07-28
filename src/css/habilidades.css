@@ -1,0 +1,32 @@
+.habilidades .container-habilidade {
+    background-color: rebeccapurple;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.habilidades .container-habilidade .informacoes {
+    /* background-color: rebeccapurple; */
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidade .informacoes p,
+.habilidades .container-habilidade .informacoes h3,
+.habilidades .container-habilidade .informacoes .logo i {
+    transition: .3s ease;
+}
+
+.habilidades .container-habilidade .informacoes h3 {
+    color: var(--cores-link);
+    font-size: var(--fonte-extra-grande);
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.habilidades .container-habilidade .informacoes p {
+    /* font-size: ; */
+    color: var(--cores-bw-600);
+}
