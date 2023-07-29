@@ -7,6 +7,11 @@
     z-index: 9999;
 }
 
+.modo-escuro .header {
+    background-color: var(--cor-bw-800-com-opacidade);
+
+}
+
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
@@ -21,6 +26,10 @@
     margin: 3px;
 }
 
+.modo-escuro .header .logo {
+    color: var(--cor-bw-50);
+}
+
 .header a:hover .logo {
     text-shadow: 0rem 0rem 1rem var(--cor-hiperlink);
     color: var(--cor-hiperlink);
@@ -30,10 +39,16 @@
 .header nav ul li a {
     text-transform: capitalize;
     font-size: var(--fonte-normal);
+    color: var(--preto);
     font-weight: 400;
     padding: 10px 20px;
     transition: var(--transition-linear);
     user-select: none;
+}
+
+.modo-escuro .header nav ul li a {
+    color: var(--cor-bw-50);
+
 }
 
 .header nav ul li a:hover {
@@ -75,6 +90,11 @@
     transition: var(--transition-ease-in-out);
 }
 
+.modo-escuro .header .hamburguer::before,
+.modo-escuro .header .hamburguer::after {
+    background-color: var(--cor-bw-50);
+}
+
 .header .hamburguer::before {
     top: -5px;
 }
@@ -103,12 +123,7 @@
     }
 }
 
-.trocar-tema {
-    background-color: red;
-    height: 30px;
-    aspect-ratio: 16/9;
-    border-radius: var(--radius-aplicativo);
-}
+
 
 @media (max-width:900px) {
     .header .menu {
@@ -128,10 +143,13 @@
 
     .header nav ul {
         display: none;
-        background-color: var(--cor-bw-300);
+        background-color: var(--cor-bw-100);
         backdrop-filter: blur(20px);
         border-radius: var(--radius-aplicativo-wide);
         padding: 20px 40px;
+    }
+    .modo-escuro .header nav ul {
+        background-color: var(--cor-bw-800);
     }
 
     .header nav ul li a {

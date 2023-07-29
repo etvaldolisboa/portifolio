@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8" />
@@ -14,9 +14,9 @@
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
   <link rel="stylesheet" href="src/css/variaveis.css" />
-  
-  <link rel="stylesheet" href="src/css/header.css" />
+
   <link rel="stylesheet" href="src/css/trocar-tema.css" />
+  <link rel="stylesheet" href="src/css/header.css" />
   <link rel="stylesheet" href="src/css/home.css" />
   <link rel="stylesheet" href="src/css/sobre.css" />
   <link rel="stylesheet" href="src/css/habilidades.css" />
@@ -29,10 +29,6 @@
 </head>
 
 <body>
-  <!-- <button class="switch">
-    <input type="checkbox" id="theme-switch">
-    <label for="theme-switch">Alterar tema</label>
-  </button> -->
   <header class="header">
     <div class="header-container">
       <div class="row justify-content-between alinhar-itens-centro">
@@ -40,23 +36,27 @@
           <h1 class="logo">EL</h1>
         </a>
         <nav>
+          <div class="blur">
           <input id="menu-hamburguer" type="checkbox" />
           <label for="menu-hamburguer">
             <div class="menu">
               <span class="hamburguer"></span>
-              <!-- <span class="hamburguer"></span> -->
             </div>
           </label>
-          <ul class="row">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-          </ul>
+            <ul class="row">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          </div>
         </nav>
         <div class="trocar-tema">
-          <span>ola</span>
+          <input class="chk-tema" type="checkbox" id="trocar-tema">
+          <label for="trocar-tema" class="label-trocar-tema">
+            <div class="btn-alternancia"></div>
+          </label>
         </div>
 
       </div>
@@ -125,15 +125,19 @@
         <div class="informacoes-sobre-mim">
           <p>
             <strong>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit
-            </strong>. Expedita perferendis sunt, earum ratione quaerat
-            cum ut exercitationem laudantium molestiae asperiores aperiam qui nulla nisi facere! Porro fugiat minus
-            ducimus nulla.
+              Oi, eu sou Etvaldo Lisboa, um desenvolvedor FrontEnd apaixonado pel area de tecnlogia e autoditato do
+              Brasil</strong> ,
+            atualmente estou estudando para aprimorar os meus conhecimentos trabalhando na Razorpay como engenheiro
+            FrontEnd. Eu tenho construído coisas na web desde quando
+            eu estava no 6º padrão, eu fiz inúmeros projetos paralelos e eu também possuo poderes mágicos de usar o
+            react para construir interfaces de usuário deliciosas.
+
           </p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum adipisci, sequi, tenetur doloribus
-            molestias
-            voluptas ratione mollitia quidem blanditiis, dolor explicabo tempore saepe cupiditate incidunt sint beatae
-            quas fugiat. Facere.</p>
+          <p>
+            Eu também amo fazer desenvolvimento de código aberto, eu mantenho ativamente vários projetos de código
+            aberto notáveis com mais de
+            30k + estrelas no GitHub e 50m + hits. Dá-me um sentimento maravilhoso de realização e alegria que não
+            consigo explicar em palavras.</p>
 
           <div class="botoes"><a href="src/arquivos/cv.pdf" class="botao outter-shadows" target="_blank">Baixar cv</a>
           </div>
@@ -338,7 +342,7 @@
       </div>
   </footer>
 
-  <!-- <script src="src/js/trocar-tema.js"></script> -->
+  <script src="src/js/trocar-tema.js"></script>
 
 
   <script src="src/js/opacity.js"></script>

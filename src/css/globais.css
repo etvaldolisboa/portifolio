@@ -15,18 +15,19 @@
 
 html {
   font-size: 62.5%;
-  color: var(--preto);
   font-weight: 300;
   scroll-behavior: smooth;
-  font-family: system-ui;
 }
 
 body {
-  background-color: var(--branco);
-  /* background-image: url(https://placekitten.com/2000/2000); */
-  /* background-color: var(--cor-bw-900); */
   font-family: 'SF Pro';
+  background-color: var(--branco);
   font-size: var(--fonte-normal);
+}
+
+body.modo-escuro {
+  background-color: var(--cor-bw-900);
+  color: var(--branco);
 }
 
 .header-container {
@@ -35,23 +36,10 @@ body {
 }
 
 .container {
-  max-width: 1280px;
-  /* background-color: red; */
+  max-width: 1144px;
   min-height: 89vh;
   margin: auto;
 }
-
-/* .container-opacity-blur {
-  background-color: var(--cor-bw-200-com-opacidade);
-  backdrop-filter: var(--globalnav-backdrop-filter);
-  z-index: -999;
-
-} 
-*/
-
-
-
-
 
 .row {
   display: flex;
@@ -78,7 +66,6 @@ body {
 .outter-shadows {
   box-shadow: 3px 3px #222327, -3px -3px 3px;
   background-color: red;
-  /* padding: 20px; */
 }
 
 .inner-shadow {
@@ -97,7 +84,10 @@ body {
   background-color: var(--cor-bw-200-com-opacidade);
   backdrop-filter: var(--globalnav-backdrop-filter);
   border-radius: var(--radius-aplicativo-ultra-wide);
-  /* background-color: var(--cor-bw-100); */
+}
+
+.modo-escuro .section-title{
+  background-color: var(--cor-bw-800-com-opacidade);
 }
 
 .section-title h2 {
@@ -115,3 +105,10 @@ body {
   padding: 10px 20px;
   background-color: var(--cor-hiperlink);
 }
+
+
+/* .blur{
+  background-color: red;
+  background-color: var(--cor-bw-200-com-opacidade);
+  backdrop-filter: var(--globalnav-backdrop-filter);
+} */
