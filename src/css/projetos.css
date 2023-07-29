@@ -32,7 +32,7 @@
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto {
-    background-color: var(--cores-bw-800);
+    background-color: var(--cor-bw-800);
     padding: 20px;
     position: absolute;
     top: 0;

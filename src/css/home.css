@@ -1,45 +1,94 @@
 .home .fullscreen {
-  min-height: 86vh;
+  min-height: 92vh;
   /* background-color: red; */
   padding: 50px 0;
 }
 
-.home .texto-home {
-  /* background-color: blue; */
-  letter-spacing: 2px;
+.icon-home {
+  font-size: 900px;
+  position: absolute;
+  z-index: -999;
+  color: var(--cor-hiperlink-com-opacidade);
+  right: -100px;
+  bottom: 0;
 }
-
 .home .texto-home,
-.home .img-home {
+.home .card-code {
   flex: 0 0 50%;
-  max-width: 50%;
+  /* max-width: 50%; */
   padding: 0 15px;
 }
 
-.home .img-home .img-box {
-  /* background-color: tomato; */
-  max-width: 450px;
-  margin: auto;
-  border-radius: 50%;
+.redes-sociais {
+  padding: 15px 0;
+  gap: 20px;
+  /* justify-content: center; */
 }
 
-.home .img-home .img-box img {
-  width: 100%;
-  border-radius: 50%;
-  border: 20px solid transparent;
+.redes-sociais .rede{
+  background-color: var(--cor-bw-200-com-opacidade);
+  backdrop-filter: var(--globalnav-backdrop-filter);
+  padding: 20px;
+  border-radius: var(--radius-aplicativo);
+  transition: var(--transition-linear);
+  color: var(--cor-bw-700);
+  font-size: var(--fonte-gigante);
+}
+.redes-sociais .rede:hover {
+  color: var(--cor-hiperlink);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px var(--cor-hiperlink);
+  text-shadow: 0rem 0rem 5rem var(--cor-hiperlink);
+}
+
+.home .texto-home {
+  /* background-color: blue; */
 }
 
 .home .texto-home h1 {
-  font-size: 3rem
+  font-weight: 900;
+  font-size: var(--fonte-extra-grande);
+  color: var(--cor-hiperlink);
 }
 
-@media (max-width: 1280px) {
+.home .texto-home .descricao-texto {
+  letter-spacing: 0.5rem;
+  color: var(--cor-bw-600);
+}
 
-  .home .texto-home,
-  .home .img-home {
+.home .card-code {
+  background-color: var(--cor-bw-200-com-opacidade);
+  backdrop-filter: var(--globalnav-backdrop-filter);
+  border-radius: var(--radius-aplicativo-wide);
+  padding: 40px 20px;
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+}
+
+
+@media (max-width: 1280px) {
+.home .fullscreen {
+/* align-items: center; */
+justify-content: center;
+
+}
+
+  .home .texto-home
+  {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
     padding: var(--mobile-padding);
+    /* background-color: red; */
   }
-} 
+  .redes-sociais {
+    justify-content: center;
+  }
+  
+  .home .card-code {
+    /* background-color: blue; */
+  }
+
+
+
+}

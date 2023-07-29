@@ -14,11 +14,14 @@
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
   <link rel="stylesheet" href="src/css/variaveis.css" />
+  
   <link rel="stylesheet" href="src/css/header.css" />
+  <link rel="stylesheet" href="src/css/trocar-tema.css" />
   <link rel="stylesheet" href="src/css/home.css" />
   <link rel="stylesheet" href="src/css/sobre.css" />
   <link rel="stylesheet" href="src/css/habilidades.css" />
   <link rel="stylesheet" href="src/css/projetos.css" />
+  <link rel="stylesheet" href="src/css/footer.css" />
 
   <link rel="stylesheet" href="src/webfonts/fontawesome-web/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -26,21 +29,25 @@
 </head>
 
 <body>
+  <!-- <button class="switch">
+    <input type="checkbox" id="theme-switch">
+    <label for="theme-switch">Alterar tema</label>
+  </button> -->
   <header class="header">
-    <div class="container">
+    <div class="header-container">
       <div class="row justify-content-between alinhar-itens-centro">
         <a href="#">
           <h1 class="logo">EL</h1>
         </a>
         <nav>
           <input id="menu-hamburguer" type="checkbox" />
-
           <label for="menu-hamburguer">
             <div class="menu">
               <span class="hamburguer"></span>
+              <!-- <span class="hamburguer"></span> -->
             </div>
           </label>
-          <ul>
+          <ul class="row">
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
@@ -48,41 +55,54 @@
             <li><a href="#contatos">Contatos</a></li>
           </ul>
         </nav>
+        <div class="trocar-tema">
+          <span>ola</span>
+        </div>
+
       </div>
     </div>
   </header>
 
-  <section class="home" id="home">
+  <section class="home " id="home">
     <div class="container">
+      <i class="fa-solid fa-user icon-home"></i>
+
+      <!-- <i class="fa-solid fa-earth-americas icon-home"></i> -->
+      <!-- <i class="fa-solid fa-play"></i> -->
       <div class="row fullscreen alinhar-itens-centro">
         <div class="texto-home">
-          <h1>ola meu nome e eh lisboa</h1>
-          <p>eu sou desenvolvedor frondtend</p>
+          <p>Oi, eu sou</p>
+          <h1>ETVALDO LISBOA</h1>
+          <p class="descricao-texto">DESENVOLVEDOR WEB FRONT-END</p>
 
           <ul class="redes-sociais row">
             <li>
-              <a href="#" class="outter-shadows">
-                <i class="fa-brands fa-linkedin-in"></i> </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in rede"></i> </a>
             </li>
             <li>
-              <a href="#" class="outter-shadows">
-                <i class="fa-brands fa-github"></i></a>
+              <a href="#">
+                <i class="fa-brands fa-github rede"></i></a>
             </li>
             <li>
-              <a href="#" class="outter-shadows">
-                <i class="fa-brands fa-whatsapp"></i> </a>
+              <a href="#">
+                <i class="fa-brands fa-whatsapp rede"></i> </a>
             </li>
             <li>
-              <a href="#" class="outter-shadows">
-                <i class="fa-brands fa-instagram"></i> </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram rede"></i> </a>
             </li>
           </ul>
         </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img src=" https://placehold.co/600x600" alt="">
-          </div>
+        <div class="card-code">
+          <pre>1. class <b>Person</b> {</pre>
+          <pre>2.  constructor() { </pre>
+          <pre>3.   this.name = "<strong>Etvaldo Lisboa</strong>";</pre>
+          <pre>4.   this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];</pre>
+          <pre>5.   this.age = new Date( ).getFullYear( ) - 1996;</pre>
+          <pre>6.  }</pre>
+          <pre>7. }</pre>
         </div>
       </div>
     </div>
@@ -230,7 +250,7 @@
       </div>
 
       <div class="container-projetos">
-        
+
         <div class="projeto">
           <a href="#">
             <img src="https://placekitten.com/500" alt="nome-projeto">
@@ -241,7 +261,7 @@
             <p>ver no github page</p>
           </div>
         </div>
-        
+
         <div class="projeto">
           <a href="#">
             <img src="https://placekitten.com/500" alt="nome-projeto">
@@ -252,7 +272,7 @@
             <p>ver no github page</p>
           </div>
         </div>
-        
+
         <div class="projeto">
           <a href="#">
             <img src="https://placekitten.com/500" alt="nome-projeto">
@@ -263,7 +283,7 @@
             <p>ver no github page</p>
           </div>
         </div>
-        
+
         <div class="projeto">
           <a href="#">
             <img src="https://placekitten.com/500" alt="nome-projeto">
@@ -274,7 +294,7 @@
             <p>ver no github page</p>
           </div>
         </div>
-        
+
       </div>
 
 
@@ -287,7 +307,41 @@
     </div>
   </section>
 
-  <footer class="footer"></footer>
+  <footer class="footer" id="contatos">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Projetos</h2>
+        </div>
+      </div> -->
+    <div class="footer-container">
+      <h2>me enviem uma mensagem</h2>
+      <div class="redes sociais">
+        <ul class="redes-sociais row">
+          <li>
+            <a href="#" class="outter-shadows">
+              <i class="fa-brands fa-linkedin-in"></i> </a>
+          </li>
+          <li>
+            <a href="#" class="outter-shadows">
+              <i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#" class="outter-shadows">
+              <i class="fa-brands fa-whatsapp"></i> </a>
+          </li>
+          <li>
+            <a href="#" class="outter-shadows">
+              <i class="fa-brands fa-instagram"></i> </a>
+          </li>
+        </ul>
+      </div>
+  </footer>
+
+  <!-- <script src="src/js/trocar-tema.js"></script> -->
+
+
+  <script src="src/js/opacity.js"></script>
 </body>
 
 </html>
