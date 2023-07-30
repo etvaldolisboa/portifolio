@@ -1,7 +1,6 @@
 .header {
     background-color: var(--cor-bw-200-com-opacidade);
     backdrop-filter: var(--globalnav-backdrop-filter);
-    /* padding: 12px; */
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -123,8 +122,6 @@
     }
 }
 
-
-
 @media (max-width:900px) {
     .header .menu {
         display: block;
@@ -148,12 +145,12 @@
         border-radius: var(--radius-aplicativo-wide);
         padding: 20px 40px;
     }
+
     .modo-escuro .header nav ul {
         background-color: var(--cor-bw-800);
     }
 
     .header nav ul li a {
-        /* border: 1px red solid; */
         text-align: center;
         padding: 15px;
         display: block;
@@ -162,6 +159,4 @@
     .trocar-tema {
         display: none;
     }
-
-
 }

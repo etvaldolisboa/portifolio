@@ -1,11 +1,8 @@
 .habilidades .container-habilidade {
     background-color: var(--cor-azul-claro);
-    /* display: flex; */
     flex-wrap: wrap;
     text-align: center;
-    height: 95vh;
     justify-content: center;
-    align-items: center;
 }
 .modo-escuro .habilidades .container-habilidade {
     background-color: var(--cor-azul-escuro);
@@ -13,9 +10,8 @@
 
 
 .habilidades .container-habilidade .informacoes {
-    /* background-color: rebeccapurple; */
     max-width: 250px;
-    padding: 40px 20px;
+    padding: 20px;
 }
 
 .habilidades .container-habilidade .informacoes p,
@@ -29,22 +25,17 @@
     font-size: var(--fonte-grande);
     font-family: var(--fonte-secundaria);
     font-weight: bold;
-    /* margin-bottom: 20px; */
+    margin-bottom: 15px;
 }
 
 .habilidades .container-habilidade .informacoes p {
-    /* font-size: 40px ; */
-    text-align: justify;
     color: var(--cor-bw-600);
 }
 .modo-escuro .habilidades .container-habilidade .informacoes p {
-    /* font-size: 40px ; */
     color: var(--cor-bw-300);
 }
 
 .habilidades .container-habilidade .informacoes .logo i {
     font-size: 50px;
     color: var(--cor-hiperlink);
-    text-shadow: 0rem 0rem 10rem var(--cor-bw-800);
-
 }

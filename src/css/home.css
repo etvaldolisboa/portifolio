@@ -4,11 +4,10 @@
 }
 
 .icon-home {
-  font-size: 900px;
+  max-width: 45%;
   position: absolute;
   z-index: -999;
-  color: var(--cor-hiperlink-com-opacidade);
-  right: -100px;
+  right: 0;
   bottom: 0;
 }
 
@@ -46,10 +45,6 @@
   text-shadow: 0rem 0rem 5rem var(--cor-hiperlink);
 }
 
-.home .texto-home {
-  /* background-color: blue; */
-}
-
 .home .texto-home h1 {
   font-weight: 900;
   font-size: var(--fonte-extra-grande);
@@ -81,7 +76,6 @@
 
 @media (max-width: 1280px) {
   .home .fullscreen {
-    /* align-items: center; */
     justify-content: center;
 
   }
@@ -91,7 +85,6 @@
     max-width: 100%;
     text-align: center;
     padding: var(--mobile-padding);
-    /* background-color: red; */
   }
 
   .redes-sociais {
@@ -99,9 +92,5 @@
   }
 
   .home .card-code {
-    /* background-color: blue; */
   }
-
-
-
 }

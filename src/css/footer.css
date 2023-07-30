@@ -1,19 +1,10 @@
-.footer{
-
-}
 .footer-container{
-    /* margin-top: 7rem; */
     text-align: center;
-    background-color: var(--cor-bw-900);
-    color: var(--cor-bw-200);
+    background-color: var(--cor-bw-200-com-opacidade);
+    backdrop-filter: var(--globalnav-backdrop-filter);
     padding: 5rem 0;
-    align-items: center;display: flex;flex-direction: column;
 }
 
 .footer-container h2{
-    font-size: var(--fonte-extra-grande);
-    background-color: tan;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    font-size: var(--fonte-grande);
 }
