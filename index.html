@@ -29,323 +29,324 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-container">
-      <div class="row justify-content-between alinhar-itens-centro">
-        <a href="#">
-          <h1 class="logo">EL</h1>
-        </a>
-        <nav>
-          <div class="blur">
-          <input id="menu-hamburguer" type="checkbox" />
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+
+  <body class="modo-escuro">
+    <header class="header">
+      <div class="header-container">
+        <div class="row justify-content-between alinhar-itens-centro">
+          <a href="#">
+            <h1 class="logo">EL</h1>
+          </a>
+          <nav>
+            <div class="blur">
+              <input id="menu-hamburguer" type="checkbox" />
+              <label for="menu-hamburguer">
+                <div class="menu">
+                  <span class="hamburguer"></span>
+                </div>
+              </label>
+              <ul class="row">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Meus projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+              </ul>
             </div>
-          </label>
-            <ul class="row">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#projetos">Meus projetos</a></li>
-              <li><a href="#contatos">Contatos</a></li>
+          </nav>
+          <div class="trocar-tema">
+            <input class="chk-tema" type="checkbox" id="trocar-tema">
+            <label for="trocar-tema" class="label-trocar-tema">
+              <div class="btn-alternancia"></div>
+            </label>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <section class="home " id="home">
+      <div class="container">
+        <!-- <i class="fa-solid fa-user icon-home"></i> -->
+        <div class="row fullscreen alinhar-itens-centro">
+          <div class="texto-home">
+            <p>Oi, eu sou</p>
+            <h1>ETVALDO LISBOA</h1>
+            <p class="descricao-texto">DESENVOLVEDOR WEB FRONT-END</p>
+
+            <ul class="redes-sociais row">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in rede"></i> </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-github rede"></i></a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-whatsapp rede"></i> </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram rede"></i> </a>
+              </li>
             </ul>
           </div>
-        </nav>
-        <div class="trocar-tema">
-          <input class="chk-tema" type="checkbox" id="trocar-tema">
-          <label for="trocar-tema" class="label-trocar-tema">
-            <div class="btn-alternancia"></div>
-          </label>
-        </div>
 
-      </div>
-    </div>
-  </header>
-
-  <section class="home " id="home">
-    <div class="container">
-      <i class="fa-solid fa-user icon-home"></i>
-
-      <!-- <i class="fa-solid fa-earth-americas icon-home"></i> -->
-      <!-- <i class="fa-solid fa-play"></i> -->
-      <div class="row fullscreen alinhar-itens-centro">
-        <div class="texto-home">
-          <p>Oi, eu sou</p>
-          <h1>ETVALDO LISBOA</h1>
-          <p class="descricao-texto">DESENVOLVEDOR WEB FRONT-END</p>
-
-          <ul class="redes-sociais row">
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-linkedin-in rede"></i> </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-github rede"></i></a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-whatsapp rede"></i> </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-instagram rede"></i> </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card-code">
-          <pre>1. class <b>Person</b> {</pre>
-          <pre>2.  constructor() { </pre>
-          <pre>3.   this.name = "<strong>Etvaldo Lisboa</strong>";</pre>
-          <pre>4.   this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];</pre>
-          <pre>5.   this.age = new Date( ).getFullYear( ) - 1996;</pre>
-          <pre>6.  }</pre>
-          <pre>7. }</pre>
+          <div class="card-code">
+            <pre>1. class <b>Person</b> {</pre>
+            <pre>2.  constructor() { </pre>
+            <pre>3.   this.name = "<strong>Etvaldo Lisboa</strong>";</pre>
+            <pre>4.   this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];</pre>
+            <pre>5.   this.age = new Date( ).getFullYear( ) - 1996;</pre>
+            <pre>6.  }</pre>
+            <pre>7. }</pre>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row informacoes-sobre-mim">
+          <div class="img-sobre-mim">
+            <!-- <div class="img-box inner-shadow"> -->
+            <img src=" https://placehold.co/1080x1080" alt="foto de perfil">
+            <!-- </div> -->
+          </div>
+
+          <div class="texto-sobre-mim">
+            <p>
+              Oi, meu nome é
+              <b>Etvaldo Lisboa, sou um desenvolvedor FrontEnd autoditato do Brasil.</b>
+              Sou apaixonado por criar interfaces de usuário bonitas e eficientes, e estou sempre procurando novas
+              maneiras de melhorar minhas habilidades.
+              <br>
+              Eu venho construindo coisas na web desde quando eu estava no ensino medio, eu fiz inúmeros projetos
+              paralelos e eu também possuo poderes mágicos de usar o react para construir interfaces
+              de usuário deliciosas.
+              <br>
+              <br>
+              Tenho experiência com uma variedade de tecnologias, incluindo HTML, CSS, JavaScript, React, Angular,
+              Vue.js, Photoshop e Procreate. Eu também amo fazer desenvolvimento de código aberto, podendo ser
+              conferidos em meu repositorio do
+              <a href="#" class="web-link">GitHub</a>.
+            </p>
+          </div>
+
         </div>
       </div>
-      <div class="row">
-        <div class="img-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src=" https://placehold.co/300x300" alt="foto de perfil">
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>habilidades</h2>
           </div>
         </div>
 
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>
-              Oi, eu sou Etvaldo Lisboa, um desenvolvedor FrontEnd apaixonado pel area de tecnlogia e autoditato do
-              Brasil</strong> ,
-            atualmente estou estudando para aprimorar os meus conhecimentos trabalhando na Razorpay como engenheiro
-            FrontEnd. Eu tenho construído coisas na web desde quando
-            eu estava no 6º padrão, eu fiz inúmeros projetos paralelos e eu também possuo poderes mágicos de usar o
-            react para construir interfaces de usuário deliciosas.
+        <div class="container-habilidade row justify-content-center alinhar-itens-centro">
 
-          </p>
-          <p>
-            Eu também amo fazer desenvolvimento de código aberto, eu mantenho ativamente vários projetos de código
-            aberto notáveis com mais de
-            30k + estrelas no GitHub e 50m + hits. Dá-me um sentimento maravilhoso de realização e alegria que não
-            consigo explicar em palavras.</p>
-
-          <div class="botoes"><a href="src/arquivos/cv.pdf" class="botao outter-shadows" target="_blank">Baixar cv</a>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain"></i>
+            </div>
+            <h3>javascript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-        </div>
 
-      </div>
-    </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>habilidades</h2>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-habilidade">
-      <div class="row justify-content-center alinhar-itens-centro">
-
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>javascript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-git-plain"></i>
+            </div>
+            <h3>Git</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>CSS3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-git-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>Git</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-react-original"></i>
+            </div>
+            <h3>React</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>HTML5</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-react-original"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-nodejs-plain"></i>
+            </div>
+            <h3>Nodejs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>React</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-nodejs-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-vuejs-plain"></i>
+            </div>
+            <h3>Vue</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>Nodejs</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-vuejs-plain"></i>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-typescript-plain"></i>
+            </div>
+            <h3>Typerscript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime
+              cupiditate
+              voluptatibus
+            </p>
           </div>
-          <h3>Vue</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
-        </div>
-
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-typescript-plain"></i>
-          </div>
-          <h3>Typerscript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores ut quas maxime cupiditate
-            voluptatibus
-          </p>
         </div>
       </div>
 
-    </div>
+    </section>
 
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Projetos</h2>
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Projetos</h2>
+          </div>
         </div>
+
+        <div class="container-projetos">
+
+          <div class="projeto">
+            <a href="#">
+              <img src="https://placekitten.com/500" alt="nome-projeto">
+            </a>
+            <h3>projeto 01</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p>ver no github page</p>
+            </div>
+          </div>
+
+          <div class="projeto">
+            <a href="#">
+              <img src="https://placekitten.com/500" alt="nome-projeto">
+            </a>
+            <h3>projeto 01</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p>ver no github page</p>
+            </div>
+          </div>
+
+          <div class="projeto">
+            <a href="#">
+              <img src="https://placekitten.com/500" alt="nome-projeto">
+            </a>
+            <h3>projeto 01</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p>ver no github page</p>
+            </div>
+          </div>
+
+          <div class="projeto">
+            <a href="#">
+              <img src="https://placekitten.com/500" alt="nome-projeto">
+            </a>
+            <h3>projeto 01</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p>ver no github page</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
       </div>
+    </section>
 
-      <div class="container-projetos">
-
-        <div class="projeto">
-          <a href="#">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
-          </a>
-          <h3>projeto 01</h3>
-          <div class="informacoes-projeto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <p>ver no github page</p>
-          </div>
-        </div>
-
-        <div class="projeto">
-          <a href="#">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
-          </a>
-          <h3>projeto 01</h3>
-          <div class="informacoes-projeto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <p>ver no github page</p>
-          </div>
-        </div>
-
-        <div class="projeto">
-          <a href="#">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
-          </a>
-          <h3>projeto 01</h3>
-          <div class="informacoes-projeto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <p>ver no github page</p>
-          </div>
-        </div>
-
-        <div class="projeto">
-          <a href="#">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
-          </a>
-          <h3>projeto 01</h3>
-          <div class="informacoes-projeto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <p>ver no github page</p>
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-
-
-
-
-    </div>
-  </section>
-
-  <footer class="footer" id="contatos">
-    <!-- <div class="container">
+    <footer class="footer" id="contatos">
+      <!-- <div class="container">
       <div class="row">
         <div class="section-title">
           <h2>Projetos</h2>
         </div>
       </div> -->
-    <div class="footer-container">
-      <h2>me enviem uma mensagem</h2>
-      <div class="redes sociais">
-        <ul class="redes-sociais row">
-          <li>
-            <a href="#" class="outter-shadows">
-              <i class="fa-brands fa-linkedin-in"></i> </a>
-          </li>
-          <li>
-            <a href="#" class="outter-shadows">
-              <i class="fa-brands fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#" class="outter-shadows">
-              <i class="fa-brands fa-whatsapp"></i> </a>
-          </li>
-          <li>
-            <a href="#" class="outter-shadows">
-              <i class="fa-brands fa-instagram"></i> </a>
-          </li>
-        </ul>
-      </div>
-  </footer>
+      <div class="footer-container">
+        <h2>me enviem uma mensagem</h2>
+        <div class="redes sociais">
+          <ul class="redes-sociais row">
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-linkedin-in"></i> </a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-whatsapp"></i> </a>
+            </li>
+            <li>
+              <a href="#" class="outter-shadows">
+                <i class="fa-brands fa-instagram"></i> </a>
+            </li>
+          </ul>
+        </div>
+    </footer>
 
-  <script src="src/js/trocar-tema.js"></script>
+    <script src="src/js/trocar-tema.js"></script>
 
 
-  <script src="src/js/opacity.js"></script>
-</body>
+    <script src="src/js/opacity.js"></script>
+  </body>
 
 </html>

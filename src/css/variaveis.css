@@ -3,6 +3,7 @@
   --cor-hiperlink-com-opacidade: hsla(209, 100%, 58%);
 
   --cor-azul-claro: #C7D0FF;
+  --cor-azul-escuro: #414970;
 
   --cor-bw-50: #fafafa;
   --cor-bw-100: #f5f5f5;
@@ -27,11 +28,11 @@
 }
 
 :root {
-  --fonte-primaria: 'SF Pro', Helvetica, sans-serif;
-  --fonte-secundaria: 'SF Mono', Courier, monospace;
+  --fonte-primaria: 'SF Pro', sans-serif;
+  --fonte-secundaria: 'SF Mono', monospace;
   --fonte-terciaria: 'NY', Georgia, serif;
 
-  --fonte-extra-grande: 4.8rem;
+  --fonte-extra-grande: 4rem;
   --fonte-gigante: 3.2rem;
   --fonte-grande: 2.4rem;
   --fonte-normal: 1.6rem;
