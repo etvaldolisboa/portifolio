@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'SF Pro';
+  font-family: var(--fonte-primaria);
   background-color: var(--cor-bw-50);
   font-size: var(--fonte-normal);
   transition: all .1s ease-in-out;
@@ -94,7 +94,7 @@ body.modo-escuro {
 }
 
 .section-title h2 {
-  font-size: var(--fonte-extra-grande);
+  font-size: min(var(--fonte-extra-grande), 7vw);
   font-family: var(--fonte-secundario);
   font-weight: bold;
   text-transform: uppercase;

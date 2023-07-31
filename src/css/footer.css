@@ -6,5 +6,5 @@
 }
 
 .footer-container h2{
-    font-size: var(--fonte-grande);
+    font-size: min(var(--fonte-grande), 4vw);
 }

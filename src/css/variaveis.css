@@ -39,11 +39,11 @@
   --fonte-secundaria: 'SF Mono', monospace;
   --fonte-terciaria: 'NY', Georgia, serif;
 
-  --fonte-extra-grande: 4.8rem;
+  --fonte-extra-grande: 4rem;
   --fonte-gigante: 3.2rem;
   --fonte-grande: 2.4rem;
   --fonte-normal: 1.6rem;
-  --fonte-pequena: .8rem;
+  --fonte-pequena: .7rem;
 }
 
 :root {
