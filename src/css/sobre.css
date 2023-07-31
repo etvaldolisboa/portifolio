@@ -1,4 +1,4 @@
-.sobre-mim .informacoes-sobre-mim{
+.sobre-mim .informacoes-sobre-mim {
     align-items: center;
 }
 
@@ -11,7 +11,7 @@
 
 .sobre-mim .img-sobre-mim img {
     border-radius: var(--radius-aplicativo);
-    
+
 }
 
 .sobre-mim .texto-sobre-mim {
@@ -22,6 +22,25 @@
     font-family: var(--fonte-secundaria);
     font-weight: 200;
 }
+
 .modo-escuro .sobre-mim .informacoes-sobre-mim p {
-color: var(--cor-bw-400);
+    color: var(--cor-bw-400);
+}
+
+@media (max-width: 1440px) {
+    .sobre-mim {
+        padding: var(--mobile-padding);
+    }
+}
+
+@media (max-width: 425px) {
+
+    .sobre-mim .informacoes-sobre-mim {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sobre-mim .texto-sobre-mim {
+
+        padding: 25px 0px;
+    }
 }

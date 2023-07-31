@@ -29,7 +29,7 @@
   --preto: #000;
   --branco: #fff;
 
-  --globalnav-backdrop-filter: saturate(180%) blur(20px);
+  --globalnav-backdrop-filter: saturate(200%) blur(20px);
 }
 
 :root {
@@ -41,7 +41,7 @@
   --fonte-gigante: 2em;
   --fonte-grande: 1.5em;
   --fonte-normal: 1em;
-  /* --fonte-pequena: .5em; */
+  --fonte-pequena: .5em;
 }
 
 :root {
@@ -49,9 +49,9 @@
 }
 
 :root {
-  --radius-aplicativo: 15.79%;
-  --radius-aplicativo-wide: 1.6pc;
-  --radius-aplicativo-ultra-wide: 2pc;
+  --radius-aplicativo: 1.5pc;
+  /* --radius-aplicativo-wide: 1.5pc; */
+  /* --radius-aplicativo-ultra-wide: 1.5pc; */
 }
 
 :root {

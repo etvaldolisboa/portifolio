@@ -38,7 +38,7 @@ body.modo-escuro {
 
 .container {
   max-width: 1440px;
-  min-height: 89vh;
+  min-height: 86vh;
   margin: auto;
   /* background-color: blueviolet; */
 }
@@ -86,8 +86,16 @@ body.modo-escuro {
   padding: 10px 0;
   background-color: var(--cor-bw-300-com-opacidade);
   backdrop-filter: var(--globalnav-backdrop-filter);
-  border-radius: var(--radius-aplicativo-ultra-wide);
+  border-radius: var(--radius-aplicativo);
   margin-bottom: 100px;
+}
+
+
+@media (max-width:425px) {
+  .section-title {
+    margin-bottom: 60px;
+  }
+    
 }
 
 .modo-escuro .section-title {
@@ -125,4 +133,17 @@ body.modo-escuro {
 }
 .modo-escuro .design-faixa-diagonal {
   background: linear-gradient(134deg, var(--cor-azul-escuro), var(--cor-hiperlink)99%);
+}
+
+.design-aplicativo{
+  background-color: var(--cor-bw-300-com-opacidade);
+  backdrop-filter: var(--globalnav-backdrop-filter);
+  border-radius: var(--radius-aplicativo);
+}
+.icon-home {
+  max-width: 45%;
+  position: absolute;
+  z-index: -999;
+  right: 0;
+  bottom: 0;
 }

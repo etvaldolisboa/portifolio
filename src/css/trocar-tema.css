@@ -10,7 +10,7 @@
 
 .label-trocar-tema {
   background-color: var(--cor-bw-900);
-  border-radius: var(--radius-aplicativo-wide);
+  border-radius: var(--radius-aplicativo);
   cursor: pointer;
   display: flex;
   align-items: center;
