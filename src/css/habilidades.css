@@ -15,11 +15,11 @@
     padding: 20px;
 }
 
-.habilidades .container-habilidade .informacoes p,
+/* .habilidades .container-habilidade .informacoes p,
 .habilidades .container-habilidade .informacoes h3,
 .habilidades .container-habilidade .informacoes .logo i {
     transition: .3s ease;
-}
+} */
 
 .habilidades .container-habilidade .informacoes h3 {
     color: var(--cor-hiperlink);
@@ -30,11 +30,11 @@
 }
 
 .habilidades .container-habilidade .informacoes p {
-    color: var(--cor-bw-600);
+    color: var(--cor-bw-800);
 }
 
 .modo-escuro .habilidades .container-habilidade .informacoes p {
-    color: var(--cor-bw-300);
+    color: var(--cor-bw-200);
 }
 
 .habilidades .container-habilidade .informacoes .logo i {

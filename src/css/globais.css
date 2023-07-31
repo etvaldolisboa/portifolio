@@ -2,6 +2,10 @@
   font-family: 'SF Pro';
   src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Regular.otf);
 }
+@font-face {
+  font-family: 'SF Pro Bold';
+  src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Black.otf);
+}
 
 @font-face {
   font-family: 'SF Mono';
@@ -9,9 +13,9 @@
 }
 
 html {
-  /* font-size: 62.5%; */
-  font-weight: 300;
+  font-weight: 400;
   scroll-behavior: smooth;
+  line-height: 1.5rem;
 }
 
 body {
@@ -33,14 +37,11 @@ body.modo-escuro {
 
 .container {
   max-width: 1280px;
-  min-height: 86vh;
   margin: auto;
-  /* background-color: blueviolet; */
 }
 
 .row {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .justify-content-center {
@@ -57,42 +58,50 @@ body.modo-escuro {
 
 .redes-socais a {
   max-width: 40px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1;
 }
 
-.section {
+/* .section {
   padding: 5rem 0 3rem;
-}
-
+} */
 
 .section-title {
   text-align: center;
   flex: 0 0 100%;
   max-width: 100%;
   padding: 10px 0;
+  /* background-color: var(--cor-bw-300-com-opacidade); */
+  /* backdrop-filter: var(--globalnav-backdrop-filter); */
+  /* border-radius: var(--radius-aplicativo); */
+  margin: 200px 0;
+}
+
+.design-aplicativo {
   background-color: var(--cor-bw-300-com-opacidade);
   backdrop-filter: var(--globalnav-backdrop-filter);
   border-radius: var(--radius-aplicativo);
-  margin-bottom: 100px;
-}
-
-
-@media (max-width:425px) {
-  .section-title {
-    margin-bottom: 60px;
-  }
+  color: var(--cor-bw-600);
 
 }
 
-.modo-escuro .section-title {
+.modo-escuro .design-aplicativo {
   background-color: var(--cor-bw-800-com-opacidade);
+  backdrop-filter: var(--globalnav-backdrop-filter);
+  border-radius: var(--radius-aplicativo);
+  color: var(--cor-bw-50);
+
 }
+
+/* .modo-escuro .section-title {
+  background-color: var(--cor-bw-800-com-opacidade);
+} */
+
+
 
 .section-title h2 {
   font-size: min(var(--fonte-extra-grande), 7vw);
-  font-family: var(--fonte-secundario);
+  font-family: var(--fonte-secundaria);
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .web-link {
@@ -102,6 +111,7 @@ body.modo-escuro {
 
 .web-link:hover {
   font-weight: bold;
+  border-bottom: 2px solid;
 }
 
 .design-faixa-diagonal {
@@ -113,25 +123,26 @@ body.modo-escuro {
   width: 100%;
   min-height: 450px;
   max-height: 630px;
-  z-index: -9999;
+  z-index: -999;
   transition: all .1s ease-in-out;
-
 }
 
 .modo-escuro .design-faixa-diagonal {
   background: linear-gradient(134deg, var(--cor-azul-escuro), var(--cor-hiperlink)99%);
 }
 
-.design-aplicativo {
-  background-color: var(--cor-bw-300-com-opacidade);
-  backdrop-filter: var(--globalnav-backdrop-filter);
-  border-radius: var(--radius-aplicativo);
-}
 
 .icon-home {
-  max-width: 45%;
+  max-width: 45vw;
   position: absolute;
   z-index: -999;
   right: 0;
   bottom: 0;
+
+  @media (max-width:425px) {
+    .section-title {
+      margin-bottom: 60px;
+    }
+
+  }
 }
