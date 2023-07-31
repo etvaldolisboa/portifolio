@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--cor-bw-200-com-opacidade);
+    background-color: var(--cor-bw-300-com-opacidade);
     backdrop-filter: var(--globalnav-backdrop-filter);
     position: fixed;
     width: 100%;
@@ -116,7 +116,7 @@
     bottom: 3.5px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
     .header {
         padding: var(--mobile-padding);
     }
