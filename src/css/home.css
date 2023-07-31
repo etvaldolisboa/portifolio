@@ -1,7 +1,6 @@
 .home .fullscreen {
+  min-width:  100%;
   gap: 1.5rem;
-  height: calc(86vh - 100px);
-  margin-bottom: 100px;
 }
 
 .home .texto-home {
@@ -33,17 +32,21 @@
 
 .home .redes-sociais .rede:hover {
   color: var(--cor-hiperlink);
-  transform: scale(1.1);
+  font-weight: bold;
   box-shadow: 0px 0px 20px var(--cor-hiperlink);
   text-shadow: 0rem 0rem 5rem var(--cor-hiperlink);
 }
 
 .home .card-code {
-  padding: 40px 20px;
+  padding: 30px 35px;
+  font-size: .8rem;
   font-family: var(--fonte-secundaria);
-  color: var(--cor-bw-900);
-  font-size: min(var(--fonte-normal), 1vw);
+  /* color: var(--cor-bw-900); */
+  /* font-size: min(var(--fonte-normal), 5vw); */
 }
+/* .modo-escuro .home .card-code {
+  color: var(--cor-bw-50);
+} */
 
 @media (max-width: 1280px) {
   .home {
@@ -51,10 +54,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .home .fullscreen {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .home .redes-sociais .rede {
+    padding: 15px;
   }
 
   .home .texto-home {
@@ -70,7 +77,7 @@
 
 
 @media (max-width: 450px) {
-  .home .card-code {
-    padding: 40px 10px;
-  }
+  /* .home .card-code { */
+    /* padding: 40px 10px; */
+  /* } */
 }

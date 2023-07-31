@@ -2,6 +2,7 @@
   font-family: 'SF Pro';
   src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Regular.otf);
 }
+
 @font-face {
   font-family: 'SF Pro Bold';
   src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Black.otf);
@@ -15,7 +16,8 @@
 html {
   font-weight: 400;
   scroll-behavior: smooth;
-  line-height: 1.5rem;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -23,6 +25,7 @@ body {
   background-color: var(--cor-bw-50);
   font-size: var(--fonte-normal);
   transition: all .1s ease-in-out;
+  overflow-x: hidden;
 }
 
 body.modo-escuro {
@@ -38,6 +41,7 @@ body.modo-escuro {
 .container {
   max-width: 1280px;
   margin: auto;
+  height: 100vh;
 }
 
 .row {
@@ -61,18 +65,11 @@ body.modo-escuro {
   aspect-ratio: 1;
 }
 
-/* .section {
-  padding: 5rem 0 3rem;
-} */
-
 .section-title {
   text-align: center;
   flex: 0 0 100%;
   max-width: 100%;
   padding: 10px 0;
-  /* background-color: var(--cor-bw-300-com-opacidade); */
-  /* backdrop-filter: var(--globalnav-backdrop-filter); */
-  /* border-radius: var(--radius-aplicativo); */
   margin: 200px 0;
 }
 
@@ -91,12 +88,6 @@ body.modo-escuro {
   color: var(--cor-bw-50);
 
 }
-
-/* .modo-escuro .section-title {
-  background-color: var(--cor-bw-800-com-opacidade);
-} */
-
-
 
 .section-title h2 {
   font-size: min(var(--fonte-extra-grande), 7vw);
@@ -139,10 +130,11 @@ body.modo-escuro {
   right: 0;
   bottom: 0;
 
-  @media (max-width:425px) {
-    .section-title {
-      margin-bottom: 60px;
-    }
+}
 
+@media (max-width:425px) {
+  .section-title {
+    margin-bottom: 60px;
   }
+
 }

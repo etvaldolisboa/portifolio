@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="src/css/globais.css" />
   <link rel="stylesheet" href="src/css/variaveis.css" />
 
-  <link rel="stylesheet" href="src/css/trocar-tema.css" />
   <link rel="stylesheet" href="src/css/header.css" />
   <link rel="stylesheet" href="src/css/home.css" />
   <link rel="stylesheet" href="src/css/sobre.css" />
   <link rel="stylesheet" href="src/css/habilidades.css" />
   <link rel="stylesheet" href="src/css/projetos.css" />
   <link rel="stylesheet" href="src/css/footer.css" />
+  <link rel="stylesheet" href="src/css/trocar-tema.css" />
 
   <link rel="stylesheet" href="src/webfonts/fontawesome-web/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -31,25 +31,25 @@
 <body>
 
   <header class="header">
-    <div class="container">
+    <div class="header-container">
       <div class="row justify-content-between alinhar-itens-centro">
         <a href="#">
           <h1 class="logo">EL</h1>
         </a>
         <nav>
-            <input id="menu-hamburguer" type="checkbox" />
-            <label for="menu-hamburguer">
-              <div class="menu">
-                <span class="hamburguer"></span>
-              </div>
-            </label>
-            <ul class="row">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#projetos">Meus projetos</a></li>
-              <li><a href="#contatos">Contatos</a></li>
-            </ul>
+          <input id="menu-hamburguer" type="checkbox" />
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul class="row">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
         </nav>
         <div class="trocar-tema">
           <input class="chk-tema" type="checkbox" id="trocar-tema">
@@ -63,7 +63,7 @@
   </header>
 
   <section class="home" id="home">
-    <div class="container">
+    <div class="container row alinhar-itens-centro justify-content-center">
       <img src="src/imagens/icon-fundo-pessoa.png" class="icon-home" alt="icon fundo pessoa">
       <div class="row fullscreen justify-content-between alinhar-itens-centro">
         <div class="texto-home">
@@ -72,33 +72,21 @@
           <p class="descricao-texto">DESENVOLVEDOR WEB FRONT-END</p>
 
           <ul class="redes-sociais row">
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-linkedin-in rede design-aplicativo"></i> </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-github rede design-aplicativo"></i></a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-whatsapp rede design-aplicativo"></i> </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-instagram rede design-aplicativo"></i> </a>
-            </li>
+            <li> <a href="https://www.linkedin.com/in/etvaldolisboa/" target="_blank"> <i class="fa-brands fa-linkedin-in rede design-aplicativo"></i> </a> </li>
+            <li> <a href="https://github.com/etvaldolisboa" target="_blank"> <i class="fa-brands fa-github rede design-aplicativo"></i></a> </li>
+            <li> <a href="https://codepen.io/etvaldolisboa" target="_blank"> <i class="fa-brands fa-codepen rede design-aplicativo"></i> </a> </li>
+            <li> <a href="https://www.instagram.com/etvaldolisboa/" target="_blank"> <i class="fa-brands fa-instagram rede design-aplicativo"></i> </a> </li>
           </ul>
         </div>
 
         <div class="card-code design-aplicativo">
-          <pre>1.class <b>Person</b> {</pre>
-          <pre>2. constructor() { </pre>
-          <pre>3.  this.name = "<strong>Etvaldo Lisboa</strong>";</pre>
-          <pre>4.  this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];</pre>
-          <pre>5.  this.age = new Date().getFullYear() - 1996;</pre>
-          <pre>6. }</pre>
-          <pre>7.}</pre>
+          <pre>1 class <b>Person</b> {</pre>
+          <pre>2  constructor() { </pre>
+          <pre>3   this.name = "<strong>Etvaldo Lisboa</strong>";</pre>
+          <pre>4   this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];</pre>
+          <pre>5   this.age = new Date().getFullYear() - 1996;</pre>
+          <pre>6  }</pre>
+          <pre>7 }</pre>
         </div>
       </div>
     </div>
@@ -134,7 +122,7 @@
             Tenho experiência com uma variedade de tecnologias, incluindo HTML, CSS, JavaScript, React, Angular,
             Vue.js, Photoshop e Procreate. Eu também amo fazer desenvolvimento de código aberto, podendo ser
             conferidos em meu repositorio do
-            <a href="#" class="web-link">GitHub</a>.
+            <a href="https://github.com/etvaldolisboa" class="web-link" target="_blank">GitHub</a>.
           </p>
         </div>
 
@@ -241,10 +229,10 @@
 
         <div class="projeto">
           <div class="poster">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
+            <img src="src/imagens/design-formulario.png" alt="nome-projeto">
           </div>
           <div class="detalhes">
-            <h3>Nome Projeto</h3>
+            <h3>Furmulario DEV Quest</h3>
             <h4> 30 07 2023 github</h4>
             <div class="nivel-dificuldade">
               <i class="fas fa-star"></i>
@@ -271,10 +259,10 @@
 
         <div class="projeto">
           <div class="poster">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
+            <img src="src/imagens/design-card-teen-titans.png" alt="nome-projeto">
           </div>
           <div class="detalhes">
-            <h3>Nome Projeto</h3>
+            <h3>Teen Titans Cards</h3>
             <h4> 30 07 2023 github</h4>
             <div class="nivel-dificuldade">
               <i class="fas fa-star"></i>
@@ -301,10 +289,10 @@
 
         <div class="projeto">
           <div class="poster">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
+            <img src="src/imagens/design-personagem-harry-potter.png" alt="nome-projeto">
           </div>
           <div class="detalhes">
-            <h3>Nome Projeto</h3>
+            <h3>Personagem Harry Potter</h3>
             <h4> 30 07 2023 github</h4>
             <div class="nivel-dificuldade">
               <i class="fas fa-star"></i>
@@ -317,6 +305,7 @@
             <div class="linguagens">
               <span class="linguagem">HTML</span>
               <span class="linguagem">CSS</span>
+              <span class="linguagem">JS</span>
             </div>
             <p class="descricao">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -331,10 +320,10 @@
 
         <div class="projeto">
           <div class="poster">
-            <img src="https://placekitten.com/500" alt="nome-projeto">
+            <img src="src/imagens/design-ladding-page.png" alt="nome-projeto">
           </div>
           <div class="detalhes">
-            <h3>Nome Projeto</h3>
+            <h3>Ladding Page DEV Quest</h3>
             <h4> 30 07 2023 github</h4>
             <div class="nivel-dificuldade">
               <i class="fas fa-star"></i>

@@ -50,6 +50,8 @@
     height: 100%;
     object-fit: cover;
     transition: .3s;
+    background-position: center;
+
 }
 
 .projeto:hover .poster img {
@@ -68,7 +70,8 @@
     transition: .3s;
     z-index: 2;
 }
-.modo-escuro .detalhes{
+
+.modo-escuro .detalhes {
     background-color: var(--cor-bw-800-com-opacidade);
 }
 
@@ -127,11 +130,12 @@
     margin-bottom: 1em;
 }
 
-.links-acesso-projeto{
+.links-acesso-projeto {
     margin-top: 1rem;
 }
+
 @media (max-width: 1280px) {
     .projetos {
         padding: var(--mobile-padding);
     }
-  }
+}
