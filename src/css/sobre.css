@@ -3,9 +3,8 @@
 }
 
 .sobre-mim .img-sobre-mim {
-    max-width: 40%;
+    max-width: 33%;
     display: flex;
-    background-color: red;
     border-radius: var(--radius-aplicativo);
 }
 
@@ -24,16 +23,16 @@
 }
 
 .modo-escuro .sobre-mim .informacoes-sobre-mim p {
-    color: var(--cor-bw-400);
+    color: var(--cor-bw-300);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
     .sobre-mim {
         padding: var(--mobile-padding);
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
 
     .sobre-mim .informacoes-sobre-mim {
         flex-wrap: wrap;
@@ -42,5 +41,8 @@
     .sobre-mim .texto-sobre-mim {
 
         padding: 25px 0px;
+    }
+    .sobre-mim .img-sobre-mim {
+        max-width: 50%;
     }
 }

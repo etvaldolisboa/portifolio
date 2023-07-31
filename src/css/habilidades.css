@@ -42,7 +42,7 @@
     color: var(--cor-hiperlink);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
     .habilidades {
         padding: var(--mobile-padding);
     }

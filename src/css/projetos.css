@@ -130,7 +130,7 @@
 .links-acesso-projeto{
     margin-top: 1rem;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
     .projetos {
         padding: var(--mobile-padding);
     }

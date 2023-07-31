@@ -1,16 +1,11 @@
 @font-face {
   font-family: 'SF Pro';
-  src: url(../fonts/SFProFonts/Fonts/SF-Pro.ttf);
+  src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Regular.otf);
 }
 
 @font-face {
   font-family: 'SF Mono';
   src: url(../fonts/SFMonoFonts/Fonts/SF-Mono-Regular.otf);
-}
-
-@font-face {
-  font-family: 'NY';
-  src: url(../fonts/NYFonts/Fonts/NewYork.ttf);
 }
 
 html {
@@ -32,12 +27,12 @@ body.modo-escuro {
 }
 
 .header-container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: auto;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   min-height: 86vh;
   margin: auto;
   /* background-color: blueviolet; */
@@ -61,17 +56,8 @@ body.modo-escuro {
 }
 
 .redes-socais a {
-  width: 40px;
-  height: 40px;
-}
-
-.outter-shadows {
-  box-shadow: 3px 3px #222327, -3px -3px 3px;
-  background-color: red;
-}
-
-.inner-shadow {
-  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+  max-width: 40px;
+  aspect-ratio: 1 / 1;
 }
 
 .section {
@@ -95,7 +81,7 @@ body.modo-escuro {
   .section-title {
     margin-bottom: 60px;
   }
-    
+
 }
 
 .modo-escuro .section-title {
@@ -131,15 +117,17 @@ body.modo-escuro {
   transition: all .1s ease-in-out;
 
 }
+
 .modo-escuro .design-faixa-diagonal {
   background: linear-gradient(134deg, var(--cor-azul-escuro), var(--cor-hiperlink)99%);
 }
 
-.design-aplicativo{
+.design-aplicativo {
   background-color: var(--cor-bw-300-com-opacidade);
   backdrop-filter: var(--globalnav-backdrop-filter);
   border-radius: var(--radius-aplicativo);
 }
+
 .icon-home {
   max-width: 45%;
   position: absolute;

@@ -35,6 +35,7 @@
 :root {
   --fonte-primaria: 'SF Pro', sans-serif;
   --fonte-secundaria: 'SF Mono', monospace;
+  /* --fonte-secundaria: Courier, monospace; */
   --fonte-terciaria: 'NY', Georgia, serif;
 
   --fonte-extra-grande: 2.5em;
