@@ -1,7 +1,7 @@
 .footer-container{
     text-align: center;
-    background-color: var(--cor-bw-300-com-opacidade);
-    backdrop-filter: var(--globalnav-backdrop-filter);
+    /* background-color: var(--cor-bw-300-com-opacidade); */
+    /* backdrop-filter: var(--globalnav-backdrop-filter); */
     padding: 5rem 0;
 }
 

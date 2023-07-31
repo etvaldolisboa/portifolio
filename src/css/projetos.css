@@ -67,6 +67,7 @@
     padding: 1.5em 1.5em 2em;
     background-color: var(--cor-bw-300-com-opacidade);
     backdrop-filter: var(--globalnav-backdrop-filter);
+    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
     transition: .3s;
     z-index: 2;
 }

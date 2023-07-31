@@ -84,6 +84,8 @@ body.modo-escuro {
 .modo-escuro .design-aplicativo {
   background-color: var(--cor-bw-800-com-opacidade);
   backdrop-filter: var(--globalnav-backdrop-filter);
+  -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
+
   border-radius: var(--radius-aplicativo);
   color: var(--cor-bw-50);
 

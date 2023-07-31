@@ -7,10 +7,10 @@
     /* height: 58px; */
     /* background-color: red; */
 }
-    
-    .modo-escuro .header {
+
+.modo-escuro .header {
     background-color: var(--cor-bw-800-com-opacidade);
-    
+
 }
 
 .header .logo {
@@ -144,6 +144,7 @@
         display: none;
         background-color: var(--cor-bw-100);
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border-radius: var(--radius-aplicativo-wide);
         padding: 20px 40px;
     }
