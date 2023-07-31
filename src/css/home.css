@@ -95,7 +95,7 @@
   }
   .home .card-code {
     padding: 40px 10px;
-font-size: .5em;
+/* font-size: .5em; */
     /* font-family: var(--fonte-secundaria); */
   }
 }
