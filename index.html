@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="src/css/projetos.css" />
   <link rel="stylesheet" href="src/css/footer.css" />
   <link rel="stylesheet" href="src/css/trocar-tema.css" />
+  <link rel="stylesheet" href="src/css/respossivo.css" />
 
   <link rel="stylesheet" href="src/webfonts/fontawesome-web/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -49,14 +50,16 @@
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#projetos">Meus projetos</a></li>
             <li><a href="#contatos">Contatos</a></li>
+            <li>
+              <div class="trocar-tema">
+                <input class="chk-tema" type="checkbox" id="trocar-tema">
+                <label for="trocar-tema" class="label-trocar-tema">
+                  <div class="btn-alternancia"></div>
+                </label>
+              </div>
+            </li>
           </ul>
         </nav>
-        <div class="trocar-tema">
-          <input class="chk-tema" type="checkbox" id="trocar-tema" >
-          <label for="trocar-tema" class="label-trocar-tema" >
-            <div class="btn-alternancia"></div>
-          </label>
-        </div>
 
       </div>
     </div>
@@ -64,7 +67,7 @@
 
   <section class="home" id="home">
     <div class="container row alinhar-itens-centro justify-content-center">
-      <img src="src/imagens/icon-fundo-pessoaa.png" class="icon-home" alt="icon fundo pessoa">
+      <img src="src/imagens/icon-fundo-pessoa.png" class="icon-home" alt="icon fundo pessoa">
       <div class="row fullscreen justify-content-between alinhar-itens-centro">
         <div class="texto-home">
           <p>Oi, eu sou</p>
@@ -72,10 +75,14 @@
           <p class="descricao-texto">DESENVOLVEDOR WEB FRONT-END</p>
 
           <ul class="redes-sociais row">
-            <li> <a href="https://www.linkedin.com/in/etvaldolisboa/" target="_blank"> <i class="fa-brands fa-linkedin-in rede design-aplicativo"></i> </a> </li>
-            <li> <a href="https://github.com/etvaldolisboa" target="_blank"> <i class="fa-brands fa-github rede design-aplicativo"></i></a> </li>
-            <li> <a href="https://codepen.io/etvaldolisboa" target="_blank"> <i class="fa-brands fa-codepen rede design-aplicativo"></i> </a> </li>
-            <li> <a href="https://www.instagram.com/etvaldolisboa/" target="_blank"> <i class="fa-brands fa-instagram rede design-aplicativo"></i> </a> </li>
+            <li> <a href="https://www.linkedin.com/in/etvaldolisboa/" target="_blank"> <i
+                  class="fa-brands fa-linkedin-in rede design-aplicativo"></i> </a> </li>
+            <li> <a href="https://github.com/etvaldolisboa" target="_blank"> <i
+                  class="fa-brands fa-github rede design-aplicativo"></i></a> </li>
+            <li> <a href="https://codepen.io/etvaldolisboa" target="_blank"> <i
+                  class="fa-brands fa-codepen rede design-aplicativo"></i> </a> </li>
+            <li> <a href="https://www.instagram.com/etvaldolisboa/" target="_blank"> <i
+                  class="fa-brands fa-instagram rede design-aplicativo"></i> </a> </li>
           </ul>
         </div>
 
@@ -94,7 +101,7 @@
 
   <section class="sobre-mim section" id="sobre-mim">
     <div class="container">
-      <div class="row">
+      <div class="row design-aplicativo">
         <div class="section-title">
           <h2>SOBRE MIM</h2>
         </div>
@@ -102,9 +109,9 @@
 
       <span class="design-faixa-diagonal"></span>
 
-      <div class="row informacoes-sobre-mim ">
+      <div class="row container-sobre-mim ">
         <div class="img-sobre-mim">
-          <img src=" https://placehold.co/1080x1080" alt="foto de perfil">
+          <img src="src/imagens/foto-perfil.png" alt="foto de perfil">
         </div>
 
         <div class="texto-sobre-mim">
@@ -132,84 +139,44 @@
 
   <section class="habilidades section" id="habilidades">
     <div class="container">
-      <div class="row">
+      <div class="row design-aplicativo">
         <div class="section-title">
           <h2>HABILIDADES</h2>
         </div>
       </div>
 
-      <div class="container-habilidade row justify-content-center alinhar-itens-centro">
+      <div class="container-habilidades row alinhar-itens-centro justify-content-center">
 
-        <div class="informacoes">
+        <div class="habilidade design-aplicativo">
           <div class="logo">
             <i class="devicon devicon-javascript-plain"></i>
           </div>
-          <h3>javascript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <!-- <h3>javascript</h3> -->
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.          </p> -->
         </div>
 
-        <div class="informacoes">
+        <div class="habilidade design-aplicativo">
           <div class="logo">
             <i class="devicon devicon-css3-plain"></i>
           </div>
-          <h3>CSS3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <!-- <h3>CSS3</h3> -->
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.          </p> -->
         </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-git-plain"></i>
+        <div class="habilidade design-aplicativo">
+          <div class="logo ">
+            <i class="devicon devicon-git-plain "></i>
           </div>
-          <h3>Git</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <!-- <h3>Git</h3> -->
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.          </p> -->
         </div>
 
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-react-original"></i>
-          </div>
-          <h3>React</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <div class="informacoes">
+        <div class="habilidade design-aplicativo">
           <div class="logo">
             <i class="devicon devicon-nodejs-plain"></i>
           </div>
-          <h3>Nodejs</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-vuejs-plain"></i>
-          </div>
-          <h3>Vue</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <div class="informacoes">
-          <div class="logo">
-            <i class="devicon devicon-typescript-plain"></i>
-          </div>
-          <h3>Typerscript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <!-- <h3>Nodejs</h3> -->
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.          </p> -->
         </div>
       </div>
     </div>
@@ -218,15 +185,13 @@
 
   <section class="projetos section" id="projetos">
     <div class="container">
-      <div class="row">
+      <div class="row design-aplicativo">
         <div class="section-title">
           <h2>PROJETOS</h2>
         </div>
       </div>
 
       <div class="container-projetos">
-
-
         <div class="projeto">
           <div class="poster">
             <img src="src/imagens/design-formulario.png" alt="nome-projeto">
@@ -280,7 +245,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/cards-teen-titans/" class="web-link" target="_blank"> Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/cards-teen-titans/" class="web-link" target="_blank"> Ver pagina
+              </a>
               <span>•</span>
               <a href="#" class="web-link"> Ver no github </a>
             </div>

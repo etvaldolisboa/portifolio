@@ -1,49 +1,49 @@
-.habilidades .container-habilidade {
-    background-color: var(--cor-azul-claro);
+.habilidades .container-habilidades {
+    /* background-color: var(--cor-azul-claro); */
+    width:  100%;
+    height: 100%;
+    overflow-y: scroll;
     flex-wrap: wrap;
+    gap:30px;
     text-align: center;
     justify-content: center;
+    border: 1px red solid;
+    padding: 0;
+    margin: 0;
 }
 
-.modo-escuro .habilidades .container-habilidade {
+.modo-escuro .habilidades .container-habilidades {
     background-color: var(--cor-azul-escuro);
 }
 
 
-.habilidades .container-habilidade .informacoes {
-    max-width: 250px;
-    padding: 20px;
+.habilidades .container-habilidades .habilidade {
+    width: 200px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    /* padding: 20px; */
 }
 
-/* .habilidades .container-habilidade .informacoes p,
-.habilidades .container-habilidade .informacoes h3,
-.habilidades .container-habilidade .informacoes .logo i {
-    transition: .3s ease;
-} */
-
-.habilidades .container-habilidade .informacoes h3 {
+/* .habilidades .container-habilidades .habilidade h3 {
     color: var(--cor-hiperlink);
     font-size: min(min(var(--fonte-grande), 4vw), 4vw);
     font-family: var(--fonte-secundaria);
     font-weight: bold;
     margin-bottom: 15px;
-}
+} */
 
-.habilidades .container-habilidade .informacoes p {
+.habilidades .container-habilidades .habilidade p {
     color: var(--cor-bw-800);
 }
 
-.modo-escuro .habilidades .container-habilidade .informacoes p {
+.modo-escuro .habilidades .container-habilidades .habilidade p {
     color: var(--cor-bw-200);
 }
 
-.habilidades .container-habilidade .informacoes .logo i {
-    font-size: 50px;
+.habilidades .container-habilidades .habilidade .logo i {
+    font-size: 80px;
+    aspect-ratio: 1;
     color: var(--cor-hiperlink);
 }
 
-@media (max-width: 1280px) {
-    .habilidades {
-        padding: var(--mobile-padding);
-    }
-  }

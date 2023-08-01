@@ -16,6 +16,7 @@
 html {
   font-weight: 400;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
@@ -33,15 +34,20 @@ body.modo-escuro {
   color: var(--branco);
 }
 
-.header-container {
-  max-width: 1280px;
-  margin: auto;
-}
-
 .container {
   max-width: 1280px;
   margin: auto;
-  height: 100vh;
+  height: calc(100vh - 100px);
+  margin-bottom: 100px;
+  border: 1px solid blue;
+  padding-top: 55px;
+}
+
+
+.container-sobre-mim,
+.container-habilidades,
+.container-projetos{
+  margin-top: 100px;
 }
 
 .row {
@@ -60,9 +66,8 @@ body.modo-escuro {
   align-items: center;
 }
 
-.redes-socais a {
-  max-width: 40px;
-  aspect-ratio: 1;
+.section{
+  padding-top: 55px;
 }
 
 .section-title {
@@ -70,23 +75,24 @@ body.modo-escuro {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 10px 0;
-  margin: 200px 0;
+}
+.redes-socais a {
+  max-width: 40px;
+  aspect-ratio: 1;
 }
 
 .design-aplicativo {
   background-color: var(--cor-bw-300-com-opacidade);
-  backdrop-filter: var(--globalnav-backdrop-filter);
+  border: 1px solid var(--cor-bw-50);
+  backdrop-filter: var(--global-backdrop-filter);
+  -webkit-backdrop-filter: var(--global-backdrop-filter);
   border-radius: var(--radius-aplicativo);
   color: var(--cor-bw-600);
-
 }
 
 .modo-escuro .design-aplicativo {
   background-color: var(--cor-bw-800-com-opacidade);
-  backdrop-filter: var(--globalnav-backdrop-filter);
-  -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
-
-  border-radius: var(--radius-aplicativo);
+  border: 1px solid var(--cor-bw-800);
   color: var(--cor-bw-50);
 
 }
@@ -124,19 +130,10 @@ body.modo-escuro {
   background: linear-gradient(134deg, var(--cor-azul-escuro), var(--cor-hiperlink)99%);
 }
 
-
 .icon-home {
-  width: 640px;
+  width: 720px;
   position: absolute;
   z-index: -999;
   right: 0;
   bottom: 0;
-
-}
-
-@media (max-width:425px) {
-  .section-title {
-    margin-bottom: 60px;
-  }
-
 }

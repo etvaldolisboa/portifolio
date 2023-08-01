@@ -2,14 +2,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    /* padding: 0 var(--mobile-padding); */
+    border: 1px solid red;
+
 }
 
-@media(max-width: 768px) {
-    .projetos .container-projetos {
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    }
-}
+
 
 .projeto {
     position: relative;
@@ -66,8 +63,8 @@
     height: auto;
     padding: 1.5em 1.5em 2em;
     background-color: var(--cor-bw-300-com-opacidade);
-    backdrop-filter: var(--globalnav-backdrop-filter);
-    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
+    backdrop-filter: var(--global-backdrop-filter);
+    -webkit-backdrop-filter: var(--global-backdrop-filter);
     transition: .3s;
     z-index: 2;
 }
@@ -135,8 +132,3 @@
     margin-top: 1rem;
 }
 
-@media (max-width: 1280px) {
-    .projetos {
-        padding: var(--mobile-padding);
-    }
-}

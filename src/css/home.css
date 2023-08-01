@@ -11,7 +11,12 @@
   font-weight: 900;
   font-size: min(var(--fonte-extra-grande), 8vw);
   color: var(--cor-hiperlink);
+  -webkit-text-stroke: .017rem var(--cor-bw-50);
   font-family: 'SF Pro Bold';
+}
+.modo-escuro .home .texto-home h1 {
+  color: var(--cor-hiperlink);
+  -webkit-text-stroke: .017rem var(--cor-bw-900);
 }
 
 .home .texto-home .descricao-texto {
@@ -39,41 +44,7 @@
 
 .home .card-code {
   padding: 30px 35px;
-  font-size: .9rem;
+  font-size: .8rem;
   font-family: var(--fonte-secundaria);
-  line-height: 1.8;
-}
-
-@media (max-width: 1280px) {
-  .home {
-    padding: var(--mobile-padding);
-  }
-}
-
-@media (max-width: 900px) {
-  .home .fullscreen {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .home .redes-sociais .rede {
-    padding: 15px;
-  }
-
-  .home .texto-home {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .redes-sociais {
-    justify-content: center;
-  }
-}
-
-
-@media (max-width: 450px) {
-  /* .home .card-code { */
-    /* padding: 40px 10px; */
-  /* } */
+  line-height: 1.75;
 }

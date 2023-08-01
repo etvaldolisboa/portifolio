@@ -1,48 +1,27 @@
-.sobre-mim .informacoes-sobre-mim {
+.sobre-mim .container-sobre-mim {
     align-items: center;
+
 }
 
 .sobre-mim .img-sobre-mim {
-    max-width: 33%;
+    max-width: 240px;
     display: flex;
     border-radius: var(--radius-aplicativo);
 }
 
 .sobre-mim .img-sobre-mim img {
-    border-radius: var(--radius-aplicativo);
-
+    border-radius: var(--radius-aplicativo);   
 }
 
 .sobre-mim .texto-sobre-mim {
     padding: 0 25px;
 }
 
-.sobre-mim .informacoes-sobre-mim p {
+.sobre-mim .texto-sobre-mim p {
     font-family: var(--fonte-secundaria);
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .modo-escuro .sobre-mim .informacoes-sobre-mim p {
     color: var(--cor-bw-300);
-}
-
-@media (max-width: 1280px) {
-    .sobre-mim {
-        padding: var(--mobile-padding);
-    }
-}
-
-@media (max-width: 768px) {
-
-    .sobre-mim .informacoes-sobre-mim {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .sobre-mim .texto-sobre-mim {
-
-        padding: 25px 0px;
-    }
-    .sobre-mim .img-sobre-mim {
-        max-width: 50%;
-    }
 }

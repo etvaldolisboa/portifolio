@@ -29,7 +29,7 @@
   --preto: #000;
   --branco: #fff;
 
-  --globalnav-backdrop-filter: saturate(200%) blur(20px);
+  --global-backdrop-filter: saturate(200%) blur(20px);
 }
 
 :root {

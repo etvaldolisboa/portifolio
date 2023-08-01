@@ -1,0 +1,104 @@
+@media (max-width: 1280px) {
+
+    .header,
+    .home,
+    .sobre-mim,
+    .habilidades,
+    .projetos {
+        padding: var(--mobile-padding);
+    }
+}
+
+@media (max-width: 900px) {
+    .home .fullscreen {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home .redes-sociais {
+        justify-content: center;
+    }
+
+    .home .redes-sociais .rede {
+        padding: 15px;
+    }
+
+    .home .texto-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .header nav input:checked~ul {
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        display: none;
+        background-color: var(--cor-bw-300);
+        backdrop-filter: var(--global-backdrop-filter);
+        -webkit-backdrop-filter: var(--global-backdrop-filter);
+        border-radius: var(--radius-aplicativo);
+        padding: 30px 50px;
+        transition: all .3s ease-in-out;
+    }
+
+    .modo-escuro .header nav ul {
+        background-color: var(--cor-bw-800);
+    }
+
+    .header nav ul li a {
+        text-align: center;
+        padding: 13px;
+        margin-bottom: 7px;
+        display: block;
+    }
+
+    .home .card-code {
+        padding: 40px 10px;
+    }
+
+    .projetos .container-projetos {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-mim .container-sobre-mim {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sobre-mim .container-sobre-mim {
+        padding: 25px 0px;
+    }
+
+    .sobre-mim .img-sobre-mim {
+        max-width: 50%;
+        padding-bottom: 30px;
+    }
+
+    .container-sobre-mim,
+    .container-habilidades,
+    .container-projetos {
+        margin-top: 25px;
+    }
+    .habilidades .container-habilidades .habilidade {
+    /* max-width: 175px; */
+    /* padding: 10px; */
+    /* line-height: 1.3; */
+
+}
+}

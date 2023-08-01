@@ -1,10 +1,15 @@
 .footer-container{
     text-align: center;
     /* background-color: var(--cor-bw-300-com-opacidade); */
-    /* backdrop-filter: var(--globalnav-backdrop-filter); */
-    padding: 5rem 0;
+    /* backdrop-filter: var(--global-backdrop-filter); */
+    /* padding: 5rem 0; */
 }
 
 .footer-container h2{
-    font-size: min(var(--fonte-grande), 4vw);
+    /* font-size: min(var(--fonte-grande), 4vw); */
+}
+
+.footer{
+    bottom: 0;
+    background-color: coral;
 }
