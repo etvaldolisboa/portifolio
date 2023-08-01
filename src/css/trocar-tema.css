@@ -2,7 +2,7 @@
   position: absolute;
   opacity: 0;
 }
-.trocar-tema .label-trocar-tema {
+ .trocar-tema .label-trocar-tema {
   background-color: var(--cor-bw-900);
   border-radius: var(--radius-aplicativo);
   cursor: pointer;
@@ -13,7 +13,7 @@
   position: relative;
   height: 1.3rem;
   aspect-ratio: 16/9;
-  transform: scale(1.5);
+  transform: scale(1.5); 
 }
 .trocar-tema .label-trocar-tema .btn-alternancia {
   width: 1.35rem;
