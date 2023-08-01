@@ -39,14 +39,10 @@
 
 .home .card-code {
   padding: 30px 35px;
-  font-size: .8rem;
+  font-size: .9rem;
   font-family: var(--fonte-secundaria);
-  /* color: var(--cor-bw-900); */
-  /* font-size: min(var(--fonte-normal), 5vw); */
+  line-height: 1.8;
 }
-/* .modo-escuro .home .card-code {
-  color: var(--cor-bw-50);
-} */
 
 @media (max-width: 1280px) {
   .home {

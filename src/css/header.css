@@ -1,6 +1,7 @@
 .header {
     background-color: var(--cor-bw-300-com-opacidade);
     backdrop-filter: var(--globalnav-backdrop-filter);
+  -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
     position: fixed;
     width: 100%;
     z-index: 9999;
