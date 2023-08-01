@@ -126,7 +126,7 @@ body.modo-escuro {
 
 
 .icon-home {
-  max-width: 45vw;
+  width: 640px;
   position: absolute;
   z-index: -999;
   right: 0;
