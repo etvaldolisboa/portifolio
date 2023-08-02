@@ -3,10 +3,6 @@
   gap: 1.5rem;
 }
 
-.home .texto-home {
-  line-height: 2rem;
-}
-
 .home .texto-home h1 {
   font-weight: 900;
   font-size: min(var(--fonte-extra-grande), 8vw);

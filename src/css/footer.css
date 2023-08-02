@@ -1,15 +1,24 @@
-.footer-container{
-    text-align: center;
-    /* background-color: var(--cor-bw-300-com-opacidade); */
-    /* backdrop-filter: var(--global-backdrop-filter); */
-    /* padding: 5rem 0; */
+.footer .footer-container {
+    background-color: var(--cor-bw-800);
+    flex-direction: column;
+    clear: both;
+    padding: 17px 0;
+    gap: 16px;
 }
 
-.footer-container h2{
-    /* font-size: min(var(--fonte-grande), 4vw); */
+.footer-redes-sociais {
+    gap: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.footer{
-    bottom: 0;
-    background-color: coral;
+.footer-app{
+    font-size: 1.3rem;
+}
+.design-aplicativo{
+    padding: 8px;
+}
+.footer-mensagem{
+    font-size: .5rem;
 }

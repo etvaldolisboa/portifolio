@@ -17,7 +17,7 @@ html {
   font-weight: 400;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -37,9 +37,9 @@ body.modo-escuro {
 .container {
   max-width: 1280px;
   margin: auto;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
   margin-bottom: 100px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding-top: 55px;
 }
 
@@ -99,7 +99,7 @@ body.modo-escuro {
 }
 
 .section-title h2 {
-  font-size: min(var(--fonte-extra-grande), 7vw);
+  font-size: min(var(--fonte-grande), 7vw);
   font-family: var(--fonte-secundaria);
   font-weight: bold;
 }
@@ -148,15 +148,27 @@ body.modo-escuro {
   width: 100%;
   top: 140px;
   height: 640px;
-  background-color: var(--cor-azul-claro);
-}
-.modo-escuro .habilidades-flutantes {
-  background-color: var(--cor-azul-escuro);
 }
 
 .habilidades-flutantes p {
-  color: var(--cor-bw-600);
+  color: var(--cor-hiperlink);
+  opacity: .4;
   position: absolute;
-  font-weight: bold;
   font-family: var(--fonte-secundaria);
+  user-select: none;
+  animation: text-animation 7s ease-in-out infinite;
 }
+
+@keyframes text-animation {
+  0% {
+    opacity:.6;
+  }
+  50% {
+    opacity: .1;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: .6;
+  }
+}
+
