@@ -23,13 +23,13 @@
   --cor-bw-900: #212121;
 
   /* CORES DO CARDS COM OPACIDADE */
-  --cor-bw-300-com-opacidade: hsla(0, 0%, 88%, 0.6);
-  --cor-bw-800-com-opacidade: rgba(66, 66, 66, 0.6);
+  --cor-bw-300-com-opacidade: hsla(0, 0%, 88%, 0.5);
+  --cor-bw-800-com-opacidade: rgba(66, 66, 66, 0.5);
 
   --preto: #000;
   --branco: #fff;
 
-  --global-backdrop-filter: saturate(200%) blur(20px);
+  --global-backdrop-filter: saturate(180%) blur(20px);
 }
 
 :root {

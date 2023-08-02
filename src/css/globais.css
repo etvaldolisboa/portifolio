@@ -46,7 +46,7 @@ body.modo-escuro {
 
 .container-sobre-mim,
 .container-habilidades,
-.container-projetos{
+.container-projetos {
   margin-top: 100px;
 }
 
@@ -66,7 +66,7 @@ body.modo-escuro {
   align-items: center;
 }
 
-.section{
+.section {
   padding-top: 55px;
 }
 
@@ -76,6 +76,7 @@ body.modo-escuro {
   max-width: 100%;
   padding: 10px 0;
 }
+
 .redes-socais a {
   max-width: 40px;
   aspect-ratio: 1;
@@ -136,4 +137,26 @@ body.modo-escuro {
   z-index: -999;
   right: 0;
   bottom: 0;
+}
+
+.design-parallax {
+  position: relative;
+}
+
+.habilidades-flutantes {
+  position: absolute;
+  width: 100%;
+  top: 140px;
+  height: 640px;
+  background-color: var(--cor-azul-claro);
+}
+.modo-escuro .habilidades-flutantes {
+  background-color: var(--cor-azul-escuro);
+}
+
+.habilidades-flutantes p {
+  color: var(--cor-bw-600);
+  position: absolute;
+  font-weight: bold;
+  font-family: var(--fonte-secundaria);
 }
