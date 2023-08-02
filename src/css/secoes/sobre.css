@@ -7,16 +7,20 @@
     max-width: 240px;
     display: flex;
     border-radius: var(--radius-aplicativo);
+    /* border: pc solid; */
+    background-color: var(--cor-bw-300);
+    padding: 3px;
 }
 
 .sobre-mim .img-sobre-mim img {
-    border-radius: var(--radius-aplicativo);   
+    border-radius: var(--radius-aplicativo);
 }
 
 .sobre-mim .texto-sobre-mim {
     padding: 0 25px;
 }
-.sobre-mim .texto-sobre-mim p b{
+
+.sobre-mim .texto-sobre-mim p b {
     font-weight: 600;
 }
 
