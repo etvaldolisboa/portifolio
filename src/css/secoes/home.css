@@ -1,19 +1,18 @@
 .home .fullscreen {
   min-width:  100%;
   gap: 1.5rem;
+  height: calc(100vh - 250px);
 }
 
 .home .texto-home h1 {
   font-weight: 900;
   font-size: min(var(--fonte-extra-grande), 8vw);
   color: var(--cor-hiperlink);
-  -webkit-text-stroke: .017rem var(--cor-bw-50);
-  font-family: 'SF Pro Bold';
 }
-.modo-escuro .home .texto-home h1 {
-  color: var(--cor-hiperlink);
-  -webkit-text-stroke: .017rem var(--cor-bw-900);
-}
+/* .modo-escuro .home .texto-home h1 { */
+  /* color: var(--cor-hiperlink); */
+  /* -webkit-text-stroke: .017rem var(--cor-bw-900); */
+/* } */
 
 .home .texto-home .descricao-texto {
   letter-spacing: 0.2rem;
@@ -38,9 +37,37 @@
   text-shadow: 0rem 0rem 5rem var(--cor-hiperlink);
 }
 
+
+.cv{
+  display: flex;
+}
+.btn-cv{
+  background-color: var(--cor-hiperlink);
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: var(--radius-aplicativo);
+  transition: var(--transition-linear);
+}
+
+
+.btn-cv:hover{
+  color: var(--cor-bw-50);
+  background-color: var(--cor-azul-escuro);
+}
+.modo-escuro
+.btn-cv:hover{
+  background-color: var(--cor-azul-claro);
+  color: var(--cor-bw-900);
+}
+
 .home .card-code {
   padding: 30px 35px;
   font-size: .8rem;
-  font-family: var(--fonte-secundaria);
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.75;
+  color: var(--cor-bw-900);
+}
+.modo-escuro .home .card-code {
+  color: var(--cor-bw-50);
 }

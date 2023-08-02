@@ -16,10 +16,8 @@
 .sobre-mim .texto-sobre-mim {
     padding: 0 25px;
 }
-
-.sobre-mim .texto-sobre-mim p {
-    font-family: var(--fonte-secundaria);
-    font-weight: 300;
+.sobre-mim .texto-sobre-mim p b{
+    font-weight: 600;
 }
 
 .modo-escuro .sobre-mim .informacoes-sobre-mim p {

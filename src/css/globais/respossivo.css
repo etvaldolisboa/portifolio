@@ -95,10 +95,36 @@
     .container-projetos {
         margin-top: 25px;
     }
-    .habilidades .container-habilidades .habilidade {
-    /* max-width: 175px; */
-    /* padding: 10px; */
-    /* line-height: 1.3; */
 
+    .home .cv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .cv .btn-cv {
+        border: 1px solid var(--cor-bw-800-com-opacidade);
+    }
+
+    .home .cv .btn-cv {
+        border: 1px solid var(--cor-bw-300-com-opacidade);
+    }
 }
+
+@media (max-width: 425px) {
+    .home .cv .btn-cv {
+        padding: .5rem;
+    }
+
+    .sobre-mim .texto-sobre-mim {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .habilidades .container-habilidades {
+        gap: 15px;
+    }
+
+    .habilidades .container-habilidades .habilidade {
+        width: 150px;
+    }
 }

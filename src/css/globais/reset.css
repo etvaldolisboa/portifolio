@@ -8,9 +8,12 @@
 
 a{
     text-decoration: none;
-    color: var(--preto);
+    color: var(--cor-bw-900);
 }
-
+.modo-escuro a{
+    
+    color: var(--cor-bw-50);
+}
 ul{
     list-style: none;
 }

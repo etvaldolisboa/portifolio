@@ -1,20 +1,7 @@
-@font-face {
-  font-family: 'SF Pro';
-  src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Regular.otf);
-}
-
-@font-face {
-  font-family: 'SF Pro Bold';
-  src: url(../fonts/SFProFonts/Fonts/SF-Pro-Text-Black.otf);
-}
-
-@font-face {
-  font-family: 'SF Mono';
-  src: url(../fonts/SFMonoFonts/Fonts/SF-Mono-Regular.otf);
-}
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
 
 html {
-  font-weight: 400;
+  font-weight: 300;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   line-height: 1.15;
@@ -22,7 +9,7 @@ html {
 }
 
 body {
-  font-family: var(--fonte-primaria);
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--cor-bw-50);
   font-size: var(--fonte-normal);
   transition: all .1s ease-in-out;
@@ -100,7 +87,6 @@ body.modo-escuro {
 
 .section-title h2 {
   font-size: min(var(--fonte-grande), 7vw);
-  font-family: var(--fonte-secundaria);
   font-weight: bold;
 }
 
@@ -154,9 +140,9 @@ body.modo-escuro {
   color: var(--cor-hiperlink);
   opacity: .4;
   position: absolute;
-  font-family: var(--fonte-secundaria);
+  /* font-family: var(--fonte-secundaria); */
   user-select: none;
-  animation: text-animation 7s ease-in-out infinite;
+  animation: text-animation 7s linear infinite;
 }
 
 @keyframes text-animation {
@@ -164,11 +150,11 @@ body.modo-escuro {
     opacity:.6;
   }
   50% {
-    opacity: .1;
+    /* opacity: .1; */
     filter: blur(10px);
   }
   100% {
-    opacity: .6;
+    opacity: .9;
   }
 }
 
