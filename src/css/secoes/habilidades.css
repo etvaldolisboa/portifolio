@@ -8,11 +8,6 @@
     gap:30px;
 }
 
-.modo-escuro .habilidades .container-habilidades {
-    /* background-color: var(--cor-azul-escuro); */
-}
-
-
 .habilidades .container-habilidades .habilidade {
     width: 200px;
     aspect-ratio: 1;

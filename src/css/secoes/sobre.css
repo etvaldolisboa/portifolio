@@ -1,13 +1,11 @@
 .sobre-mim .container-sobre-mim {
     align-items: center;
-
 }
 
 .sobre-mim .img-sobre-mim {
     max-width: 240px;
     display: flex;
     border-radius: var(--radius-aplicativo);
-    /* border: pc solid; */
     background-color: var(--cor-bw-300);
     padding: 3px;
 }

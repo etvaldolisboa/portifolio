@@ -24,9 +24,7 @@ body.modo-escuro {
 .container {
   max-width: 1280px;
   margin: auto;
-  /* height: calc(100vh - 100px); */
   margin-bottom: 100px;
-  /* border: 1px solid blue; */
   padding-top: 55px;
 }
 
@@ -141,7 +139,6 @@ body.modo-escuro {
   color: var(--cor-hiperlink);
   opacity: .4;
   position: absolute;
-  /* font-family: var(--fonte-secundaria); */
   user-select: none;
   animation: text-animation 7s linear infinite;
 }
@@ -151,7 +148,6 @@ body.modo-escuro {
     opacity:.6;
   }
   50% {
-    /* opacity: .1; */
     filter: blur(10px);
   }
   100% {

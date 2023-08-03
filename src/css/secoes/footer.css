@@ -2,8 +2,9 @@
     background-color: var(--cor-bw-800);
     flex-direction: column;
     clear: both;
+    text-align: center;
     padding: 17px 0;
-    gap: 16px;
+    gap: 18px;
 }
 
 .footer-redes-sociais {
@@ -13,12 +14,19 @@
     justify-content: center;
 }
 
-.footer-app{
+.footer-app {
     font-size: 1.3rem;
+    transition: var(--transition-linear);
 }
-.design-aplicativo{
+
+.footer-app:hover {
+    color: var(--cor-hiperlink);
+}
+
+.design-aplicativo {
     padding: 8px;
 }
-.footer-mensagem{
+
+.footer-mensagem {
     font-size: .5rem;
 }

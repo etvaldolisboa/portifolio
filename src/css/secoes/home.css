@@ -9,10 +9,6 @@
   font-size: min(var(--fonte-extra-grande), 8vw);
   color: var(--cor-hiperlink);
 }
-/* .modo-escuro .home .texto-home h1 { */
-  /* color: var(--cor-hiperlink); */
-  /* -webkit-text-stroke: .017rem var(--cor-bw-900); */
-/* } */
 
 .home .texto-home .descricao-texto {
   letter-spacing: 0.2rem;

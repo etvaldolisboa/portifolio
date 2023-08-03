@@ -11,7 +11,6 @@
     max-width: 1280px;
     margin: auto;
 }
-
 .header-container .alinhar-itens-centro{
     min-height: 50px;
 }
@@ -41,6 +40,14 @@
     text-shadow: 0rem 0rem 1rem var(--cor-hiperlink);
     color: var(--cor-hiperlink);
     box-shadow: 0px 0px 20px var(--cor-hiperlink);
+    
+}
+.modo-escuro
+.header a .logo.ativado {
+    text-shadow: 0rem 0rem 1rem var(--cor-hiperlink);
+    color: var(--cor-hiperlink);
+    box-shadow: 0px 0px 30px var(--cor-hiperlink);
+    
 }
 
 .header nav ul li a {

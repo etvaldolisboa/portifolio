@@ -51,7 +51,7 @@
         backdrop-filter: var(--global-backdrop-filter);
         -webkit-backdrop-filter: var(--global-backdrop-filter);
         border-radius: var(--radius-aplicativo);
-        padding: 30px 50px;
+        padding: 30px 40px;
         transition: all .3s ease-in-out;
     }
 
@@ -64,6 +64,11 @@
         padding: 13px;
         margin-bottom: 7px;
         display: block;
+    }
+
+    .home .cv {
+        display: flex;
+        justify-content: center;
     }
 
     .home .card-code {
@@ -96,10 +101,6 @@
         margin-top: 25px;
     }
 
-    .home .cv {
-        display: flex;
-        justify-content: center;
-    }
 
     .home .cv .btn-cv {
         border: 1px solid var(--cor-bw-800-com-opacidade);
@@ -111,6 +112,10 @@
 }
 
 @media (max-width: 425px) {
+    .header nav ul {
+        padding: 25px 20px;
+    }
+
     .home .cv .btn-cv {
         padding: .5rem;
     }
@@ -126,5 +131,12 @@
 
     .habilidades .container-habilidades .habilidade {
         width: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    .design-parallax {
+        display: none;
+
     }
 }
