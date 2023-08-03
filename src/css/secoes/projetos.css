@@ -4,8 +4,6 @@
     grid-gap: 20px;
 }
 
-
-
 .projetos .container-projetos .projeto {
     position: relative;
     aspect-ratio: 4 / 5;
@@ -46,7 +44,6 @@
     object-fit: cover;
     transition: .3s;
     background-position: center;
-
 }
 
 .projeto:hover .poster img {
@@ -75,20 +72,16 @@
     bottom: 0;
 }
 
-.detalhes h3,
-.detalhes h4 {
-    font-weight: 700;
-}
-
 .detalhes h3 {
     font-size: min(var(--fonte-grande), 4vw);
     margin-bottom: 5px;
+    font-weight: 700;
 }
 
 .detalhes h4 {
     font-weight: 400;
     margin-bottom: 10px;
-    opacity: .6;
+    opacity: .8;
 }
 
 .detalhes .nivel-dificuldade {
@@ -110,13 +103,13 @@
     display: flex;
     gap: .375em;
     margin-bottom: .875em;
-    font-size: var(--fonte-pequena);
 }
 
 .detalhes .linguagens span {
     padding: .35rem .65rem;
     border: 1.5px solid;
-    opacity: .6;
+    font-size: var(--fonte-pequena);
+    opacity: .8;
     border-radius: var(--radius-aplicativo);
 }
 
@@ -128,4 +121,65 @@
 
 .links-acesso-projeto {
     margin-top: 1rem;
+    transform: scale(1.1);
+    display: flex;
+}
+.links-acesso-projeto:hover {
+    margin-top: 1rem;
+    transform: scale(1.2);
+    transform: scale(1);
+}
+
+.link-glowing{
+    background-color:  hsla(0, 0%, 88%, 0.2);
+    border-radius: .67rem;
+    padding: 2px 8px;
+    font-weight: 600;
+    border: 1px solid hsla(0, 0%, 88%, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.modo-escuro
+.link-glowing{
+    background-color: rgba(66, 66, 66, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 0.5);
+}
+.link-glowing:hover {
+    box-shadow: none;
+}
+.link-glowing::before{
+    content: '';
+    background: linear-gradient(45deg,#e43b37, #fd931d,#f7bc24, #48ff00,#68c74f,#2997ff, #16b0dd, #974994, #e43b37);
+    position: absolute;
+    background-size: 400%;
+    top: -2px;
+    left:-2px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s linear;
+    }
+
+.link-glowing:hover:before {
+    opacity: 1;
+}
+
+.link-glowing:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
