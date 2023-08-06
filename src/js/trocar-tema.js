@@ -1,15 +1,13 @@
-const btnTrocaTema = document.getElementById('trocar-tema');
+const btnTrocarTema = document.getElementById('trocar-tema');
 
-btnTrocaTema.addEventListener('change', () => {
-  if(btnTrocaTema.checked){
+btnTrocarTema.addEventListener('change', () => {
+  if (btnTrocarTema.checked) {
     document.body.classList.add('modo-escuro');
-  }else{
+  } else {
     document.body.classList.remove('modo-escuro');
-}
-
+  }
 
 })
-
 
   // const checkbox = document.getElementById("myCheckbox");
 

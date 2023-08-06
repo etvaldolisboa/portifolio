@@ -92,7 +92,10 @@
 
     .sobre-mim .img-sobre-mim {
         max-width: 50%;
-        padding-bottom: 30px;
+    }
+
+    .sobre-mim .texto-sobre-mim {
+        padding-top: 30px;
     }
 
     .container-sobre-mim,

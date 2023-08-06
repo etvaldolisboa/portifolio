@@ -28,7 +28,6 @@ body.modo-escuro {
   padding-top: 55px;
 }
 
-
 .container-sobre-mim,
 .container-habilidades,
 .container-projetos {
@@ -80,7 +79,6 @@ body.modo-escuro {
   background-color: var(--cor-bw-800-com-opacidade);
   border: 1px solid var(--cor-bw-800);
   color: var(--cor-bw-50);
-
 }
 
 .section-title h2 {
