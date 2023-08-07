@@ -11,13 +11,13 @@
     max-width: 1280px;
     margin: auto;
 }
-.header-container .alinhar-itens-centro{
+
+.header-container .alinhar-itens-centro {
     min-height: 50px;
 }
 
 .modo-escuro .header {
     background-color: var(--cor-bw-800-com-opacidade);
-
 }
 
 .header .logo {
@@ -40,14 +40,14 @@
     text-shadow: 0rem 0rem 1rem var(--cor-hiperlink);
     color: var(--cor-hiperlink);
     box-shadow: 0px 0px 20px var(--cor-hiperlink);
-    
+
 }
-.modo-escuro
-.header a .logo.ativado {
+
+.modo-escuro .header a .logo.ativado {
     text-shadow: 0rem 0rem 1rem var(--cor-hiperlink);
     color: var(--cor-hiperlink);
     box-shadow: 0px 0px 30px var(--cor-hiperlink);
-    
+
 }
 
 .header nav ul li a {
@@ -90,6 +90,11 @@
     width: 80%;
     height: 3px;
     top: 20px;
+    /* transition: opacity .32s cubic-bezier(.4, 0, .6, 1), color .32s cubic-bezier(.4, 0, .6, 1);
+    transition-duration: 0.32s, 0.32s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.6, 1), cubic-bezier(0.4, 0, 0.6, 1);
+    transition-delay: 0s, 0s;
+    transition-property: opacity, color; */
 }
 
 .header .hamburguer::before,
@@ -110,10 +115,12 @@
 
 .header .hamburguer::before {
     top: -5px;
+    /* top: 0; */
 }
 
 .header .hamburguer::after {
     bottom: -5px;
+    /* bottom: 0; */
 }
 
 .header nav input {
@@ -121,11 +128,12 @@
 }
 
 .header input:checked~label .hamburguer::before {
-    transform: rotate(225deg);
+    transform: rotate(45deg);
     top: 0;
+    /* animation: up; */
 }
 
 .header input:checked~label .hamburguer::after {
-    transform: rotate(-225deg);
+    transform: rotate(135deg);
     bottom: 3.5px;
 }
