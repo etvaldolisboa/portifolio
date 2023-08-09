@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
 
 html {
   font-weight: 300;
@@ -153,3 +153,40 @@ body.modo-escuro {
   }
 }
 
+.trocar-tema .chk-tema {
+  position: absolute;
+  opacity: 0;
+}
+ .trocar-tema .label-trocar-tema {
+  background-color: var(--cor-bw-900);
+  border-radius: var(--radius-aplicativo);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 1rem;
+  aspect-ratio: 21/9;
+  transform: scale(1.5); 
+  margin: 0 auto;
+}
+.trocar-tema .label-trocar-tema .btn-alternancia {
+  width: 1rem;
+  border: 1px solid var(--cor-bw-900);
+  aspect-ratio: 1;
+  background-color: var(--cor-bw-200);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: .2s linear;
+}
+
+.trocar-tema .label-trocar-tema .btn-alternancia:hover {
+  background-color: var(--cor-hiperlink);
+  box-shadow: 0px 0px 30px var(--cor-hiperlink);
+}
+
+.chk-tema:checked+.label-trocar-tema .btn-alternancia {
+  transform: translateX(21px);
+}
