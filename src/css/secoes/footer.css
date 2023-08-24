@@ -1,32 +1,118 @@
-.footer .footer-container {
-    background-color: var(--cor-bw-800);
+.footer {
+    background-color: var(--cor-bw-900);
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    clear: both;
-    text-align: center;
-    padding: 17px 0;
-    gap: 18px;
 }
 
-.footer-redes-sociais {
-    gap: .5rem;
-    width: 100%;
+.modo-escuro .footer {
+    background-color: #000;
+}
+
+.footer-container {
     display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.footer-container .contatos-footer {
+    line-height: 1.6rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-container .contatos-footer h2 {
+    font-size: min(var(--fonte-grande), 5vw);
+}
+
+.footer-container .contatos-footer p {
+    font-size: min(var(--fonte-normal), 5vw);
+}
+
+.redes-sociais {
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-app {
-    font-size: 1.3rem;
-    transition: var(--transition-linear);
+    font-size: 26px;
 }
 
 .footer-app:hover {
-    color: var(--cor-hiperlink);
+    font-weight: bold;
 }
 
-.design-aplicativo {
+.fa-linkedin-in:hover {
+    color: #2a67c0;
+}
+
+.fa-whatsapp:hover {
+    color: #3fd051;
+}
+
+.fa-envelope:hover {
+    color: #D44638;
+}
+
+.fa-instagram:hover {
+    background-image: linear-gradient(to bottom, #feda75 0%, #fa7e1e 50%, #d62976 51%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-telegram:hover {
+    color: #0088cc;
+}
+
+.contatos-footer,
+.footer-app {
+    color: var(--cor-bw-50);
+}
+
+.container-formulario {
+    width: 400px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 8px;
 }
 
+.form input,
+.form textarea {
+    width: 100%;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+.enviar-msg {
+    cursor: pointer;
+    background-color: var(--cor-hiperlink);
+    transition: var(--transition-ease-in-out);
+    font-weight: bold;
+}
+
+.enviar-msg:hover {
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-bw-50)
+}
+
 .footer-mensagem {
-    font-size: .5rem;
+    text-align: center;
+    height: 3vh;
+    padding-top: 5px;
+    background: #000;
+    color: #fff;
+    font-size: .8rem;
 }

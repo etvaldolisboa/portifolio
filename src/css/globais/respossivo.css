@@ -4,7 +4,8 @@
     .home,
     .sobre-mim,
     .habilidades,
-    .projetos {
+    .projetos,
+    .footer-container {
         padding: var(--mobile-padding);
     }
 }
@@ -27,7 +28,6 @@
         flex: 0 0 100%;
         max-width: 100%;
         text-align: center;
-
     }
 
     .header .menu {
@@ -104,13 +104,30 @@
         margin-top: 25px;
     }
 
-
     .home .cv .btn-cv {
         border: 1px solid var(--cor-bw-800-com-opacidade);
     }
 
     .home .cv .btn-cv {
         border: 1px solid var(--cor-bw-300-com-opacidade);
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .contatos-footer {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .container-formulario {
+        width: 100%;
+    }
+
+    .footer {
+        height: 40vh;
+
     }
 }
 
@@ -124,7 +141,7 @@
     }
 
     .sobre-mim .texto-sobre-mim {
-        padding: 0px;
+        padding: 30px 0px;
         text-align: justify;
     }
 
@@ -140,6 +157,5 @@
 @media (max-width: 375px) {
     .design-parallax {
         display: none;
-
     }
 }
