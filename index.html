@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Etvaldo Freitas Lisboa - Desenvolvedor Frontend</title>
 
-  <link rel="stylesheet" href="src/webfonts/fontawesome-web/webfonts" />
+  <link rel="stylesheet" href="src/webfonts/fontawesome-web/css/all.css" />
   <link rel="stylesheet" href="src/css/globais/reset.css" />
   <link rel="stylesheet" href="src/css/globais/variaveis.css" />
 
@@ -64,7 +64,8 @@
 
   <section class="home" id="home">
     <div class="container row alinhar-itens-centro justify-content-center">
-      <img src="src/imagens/icon-fundo-pessoa.png" class="icon-home" alt="icon fundo pessoa">
+      <span class="icon-home"></span>
+
       <div class="row fullscreen justify-content-between alinhar-itens-centro">
         <div class="texto-home">
           <p>Oi, eu sou</p>
@@ -228,7 +229,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/formulario-com-validacao/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/formulario-com-validacao/" class="link-glowing"
+                target="_blank">🔗 Ver Página </a>
             </div>
           </div>
         </div>
@@ -257,7 +259,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/cards-teen-titans/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/cards-teen-titans/" class="link-glowing" target="_blank">🔗 Ver
+                Página </a>
             </div>
           </div>
         </div>
@@ -286,7 +289,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/page-harry-potter/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/page-harry-potter/" class="link-glowing" target="_blank">🔗 Ver
+                Página </a>
             </div>
           </div>
         </div>
@@ -314,7 +318,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/dev-quest-huddle-landing-page/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/dev-quest-huddle-landing-page/" class="link-glowing"
+                target="_blank">🔗 Ver Página </a>
             </div>
           </div>
         </div>
@@ -342,7 +347,8 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/NFT-Card-Frontend-Mentor/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/NFT-Card-Frontend-Mentor/" class="link-glowing"
+                target="_blank">🔗 Ver Página </a>
             </div>
           </div>
         </div>
@@ -370,17 +376,18 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/advice-generator-app/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/advice-generator-app/" class="link-glowing" target="_blank">🔗
+                Ver Página </a>
             </div>
           </div>
         </div>
 
         <div class="projeto">
           <div class="poster">
-            <img src="src/imagens/qr-code.png" alt="nome-projeto">
+            <img src="src/imagens/api-github.png" alt="nome-projeto">
           </div>
           <div class="detalhes">
-            <h3>Qr CodeDEV Quest</h3>
+            <h3>API GitHub</h3>
             <h4> 30 07 2023 github</h4>
             <div class="nivel-dificuldade">
               <i class="fas fa-star"></i>
@@ -393,12 +400,14 @@
             <div class="linguagens">
               <span class="linguagem">HTML</span>
               <span class="linguagem">CSS</span>
+              <span class="linguagem">JS</span>
             </div>
             <p class="descricao">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/card-qr-code-frontende-mentor/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/projeto-inicial-fetch-github-api/" class="link-glowing"
+                target="_blank">🔗 Ver Página </a>
             </div>
           </div>
         </div>
@@ -427,7 +436,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <div class="links-acesso-projeto">
-              <a href="https://etvaldolisboa.github.io/in-time/" class="link-glowing" target="_blank">🔗 Ver pagina </a>
+              <a href="https://etvaldolisboa.github.io/in-time/" class="link-glowing" target="_blank">🔗 Ver Página </a>
             </div>
           </div>
         </div>
@@ -455,12 +464,18 @@
         </div>
       </div>
       <div class="container-formulario">
+        <h3>Deixe uma Mensagem :)</h3>
         <form action="#" method="post" class="form">
+          <input type="text" name="nome" placeholder="Seu nome *">
+          <br>
           <input type=" email" name="email" placeholder="Endereço de e-mail *">
           <br>
-          <textarea name="message" placeholder="Mensagem *" rows="3" cols="10"></textarea>
+          <textarea name="message" placeholder="* Mensagem *
+* o formulário é só um exemplo e nenhum dado é coletado, ou armazenado *" rows="3" cols="10"></textarea>
           <br>
-          <input type="submit" value="Enviar" class="enviar-msg">
+          <button id="btn-formulario" type="button" class="enviar-msg">
+            Enviar
+          </button>
         </form>
       </div>
     </div>
@@ -472,11 +487,7 @@
     </div>
   </footer>
 
-
   <script src="src/js/trocar-tema.js"></script>
-
-
-  <script src="src/js/opacity.js"></script>
+  <script src="src/js/formulario.js"></script>
 </body>
-
 </html>

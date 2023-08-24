@@ -62,7 +62,6 @@
 
 .modo-escuro .header nav ul li a {
     color: var(--cor-bw-50);
-
 }
 
 .header nav ul li a:hover {
@@ -90,11 +89,6 @@
     width: 80%;
     height: 3px;
     top: 20px;
-    /* transition: opacity .32s cubic-bezier(.4, 0, .6, 1), color .32s cubic-bezier(.4, 0, .6, 1);
-    transition-duration: 0.32s, 0.32s;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.6, 1), cubic-bezier(0.4, 0, 0.6, 1);
-    transition-delay: 0s, 0s;
-    transition-property: opacity, color; */
 }
 
 .header .hamburguer::before,
@@ -115,12 +109,10 @@
 
 .header .hamburguer::before {
     top: -5px;
-    /* top: 0; */
 }
 
 .header .hamburguer::after {
     bottom: -5px;
-    /* bottom: 0; */
 }
 
 .header nav input {
@@ -130,7 +122,6 @@
 .header input:checked~label .hamburguer::before {
     transform: rotate(45deg);
     top: 0;
-    /* animation: up; */
 }
 
 .header input:checked~label .hamburguer::after {

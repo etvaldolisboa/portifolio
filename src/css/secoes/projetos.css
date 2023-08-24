@@ -16,7 +16,6 @@
 .modo-escuro .projetos .container-projetos .projeto {
     box-shadow: 0 0 5px var(--cor-bw-300-com-opacidade);
     border: 1px solid var(--cor-bw-300-com-opacidade);
-
 }
 
 .poster {
@@ -70,6 +69,7 @@
     -webkit-backdrop-filter: var(--global-backdrop-filter);
     transition: .3s;
     z-index: 2;
+    border-radius: 1.5pc;
 }
 
 .modo-escuro .detalhes {

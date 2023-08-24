@@ -12,7 +12,6 @@
 
 .home .texto-home .descricao-texto {
   letter-spacing: 0.2rem;
-  color: var(--cor-bw-600);
 }
 
 .home .redes-sociais {
@@ -32,7 +31,6 @@
   box-shadow: 0px 0px 20px var(--cor-hiperlink);
   text-shadow: 0rem 0rem 5rem var(--cor-hiperlink);
 }
-
 
 .cv{
   display: flex;

@@ -125,10 +125,6 @@
         width: 100%;
     }
 
-    .footer {
-        height: 40vh;
-
-    }
 }
 
 @media (max-width: 425px) {

@@ -33,10 +33,6 @@
 }
 
 :root {
-  /* ESTILOS DE FONTES */
-  --fonte-primaria: 'SF Pro', sans-serif;
-  --fonte-secundaria: 'SF Mono', monospace;
-
   /* TAMANHOS DE FONTES */
   --fonte-extra-grande: 2.5em;
   --fonte-gigante: 2em;
