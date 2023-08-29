@@ -6,7 +6,8 @@
 
 .projetos .container-projetos .projeto {
     position: relative;
-    aspect-ratio: 4 / 5;
+    /* aspect-ratio: 4 / 5; */
+    aspect-ratio: 1;
     border-radius: var(--radius-aplicativo);
     overflow: hidden;
     box-shadow: 0 0 5px var(--cor-bw-800-com-opacidade);
@@ -84,12 +85,6 @@
     font-size: min(var(--fonte-grande), 4vw);
     margin-bottom: 5px;
     font-weight: 700;
-}
-
-.detalhes h4 {
-    font-weight: 400;
-    margin-bottom: 10px;
-    opacity: .8;
 }
 
 .detalhes .nivel-dificuldade {

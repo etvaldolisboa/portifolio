@@ -92,12 +92,23 @@
 .form textarea,
 .enviar-msg {
     width: 100%;
+    background: transparent;
+    resize: none;
+    color: var(--cor-bw-300);
+}
+.form input,
+.form textarea{
+    padding: 8px 4px 4px;
+    border-bottom: 1px solid var(--cor-bw-500);
+    resize: none;
+    letter-spacing: .025rem;
+}
+.enviar-msg {
+    
+    padding: 8px;
     align-items: center;
     border-radius: 8px;
-    padding: 8px;
-    resize: none;
 }
-
 .enviar-msg {
     cursor: pointer;
     background-color: var(--cor-hiperlink);
